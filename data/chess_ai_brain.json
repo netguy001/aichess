@@ -1,8 +1,8 @@
 {
-    "games_played": 16,
+    "games_played": 19,
     "ai_wins": 5,
-    "player_wins": 7,
-    "draws": 4,
+    "player_wins": 9,
+    "draws": 5,
     "game_history": [
         {
             "game_id": 1,
@@ -2992,21 +2992,2284 @@
             ],
             "winner": "white",
             "total_moves": 43
+        },
+        {
+            "game_id": 17,
+            "date": "2025-11-29T10:45:26.969199",
+            "difficulty": "hard",
+            "moves": [
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "Q",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 0
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 0
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "piece": "q",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 1
+                    },
+                    "piece": "r",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 7,
+                        "col": 2
+                    },
+                    "piece": "q",
+                    "captured": "R",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 6,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 7,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 7,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "piece": "b",
+                    "captured": "R",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 0
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "piece": "r",
+                    "captured": "B",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 7
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 5,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 5,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 6
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 7
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 7
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 5,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 6
+                    },
+                    "piece": "p",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 6,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 7,
+                        "col": 6
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": "q"
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 7,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 5
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 6,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 5,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 5,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 7
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 7
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "R",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 7
+                    },
+                    "piece": "k",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                }
+            ],
+            "winner": "white",
+            "total_moves": 96
+        },
+        {
+            "game_id": 18,
+            "date": "2025-11-29T11:10:22.005546",
+            "difficulty": "hard",
+            "moves": [
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "piece": "b",
+                    "captured": "Q",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 7
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 5
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 0
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 1
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                }
+            ],
+            "winner": "white",
+            "total_moves": 31
+        },
+        {
+            "game_id": 19,
+            "date": "2025-11-29T11:37:52.299578",
+            "difficulty": "hard",
+            "moves": [
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 0
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "Q",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 3
+                    },
+                    "piece": "b",
+                    "captured": "B",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 7
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                }
+            ],
+            "winner": "draw",
+            "total_moves": 45
         }
     ],
     "ai_weights": {},
     "learning_data": {
-        "opening_positions": 4,
-        "positions_remembered": 893,
+        "opening_positions": 11,
+        "positions_remembered": 4984,
         "winning_patterns": 0,
-        "losing_patterns": 1,
+        "losing_patterns": 3,
         "tactical_patterns": 0,
-        "total_analyzed": 923,
-        "patterns_learned": 5,
+        "total_analyzed": 5102,
+        "patterns_learned": 20,
         "strategic_weights": {
             "piece_coordination": 0.5,
             "center_control": 0.7,
-            "king_safety": 0.77,
+            "king_safety": 0.71,
             "pawn_structure": 0.6,
             "piece_activity": 0.7
         }

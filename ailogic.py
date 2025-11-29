@@ -133,22 +133,25 @@ class ChessAI:
         # Difficulty settings - IMPROVED
         self.difficulty_config = {
             "medium": {
-                "depth": 3,
-                "time_limit": 2.0,
+                "depth": 4,
+                "time_limit": 4.0,  # More time to search
                 "use_book": True,
-                "randomness": 0.3,
+                "randomness": 0.2,  # Less randomness (was 0.3)
+                "eval_noise": 0.15,  # Add some evaluation uncertainty
             },
             "hard": {
-                "depth": 4,
-                "time_limit": 4.0,
+                "depth": 6,  # Increased from 5
+                "time_limit": 7.0,  # Increased from 5
                 "use_book": True,
-                "randomness": 0.15,
+                "randomness": 0.08,  # Reduced from 0.15
+                "eval_noise": 0.05,  # Minimal uncertainty
             },
             "impossible": {
-                "depth": 5,
-                "time_limit": 7.0,
+                "depth": 8,  # Increased from 7!
+                "time_limit": 12.0,  # Increased from 10
                 "use_book": True,
-                "randomness": 0.05,
+                "randomness": 0.0,  # Perfect play
+                "eval_noise": 0.0,  # No uncertainty
             },
         }
 
@@ -234,8 +237,12 @@ class ChessAI:
         pos_hash = self.hash_position(board)
 
         if len(self.transposition_table) > self.max_table_size:
-            keys_to_remove = list(self.transposition_table.keys())[:10000]
-            for key in keys_to_remove:
+            # Keep entries with highest depth (most valuable)
+            entries = [(k, v["depth"]) for k, v in self.transposition_table.items()]
+            entries.sort(key=lambda x: x[1])  # Sort by depth (ascending)
+            # Remove 10% of lowest-depth entries
+            remove_count = self.max_table_size // 10
+            for key, _ in entries[:remove_count]:
                 del self.transposition_table[key]
 
         self.transposition_table[pos_hash] = {
@@ -738,6 +745,12 @@ class ChessAI:
             + king_safety_score
         )
 
+        # Amplify evaluation when winning/losing significantly
+        if total_score > 500:  # Black is winning
+            total_score = int(total_score * 1.1)  # Push for win
+        elif total_score < -500:  # Black is losing
+            total_score = int(total_score * 1.1)  # Defend harder
+
         # Store this evaluation for learning (occasionally to avoid overhead)
         if self.nodes_searched % 100 == 0:
             self.strategic_db.remember_position(pos_hash, total_score, 1)
@@ -780,6 +793,8 @@ class ChessAI:
 
                 # For white pieces, flip the row (white at bottom = row 7)
                 # For black pieces, use row as-is (black at top = row 0)
+                # Tables are from black's perspective (row 0 = black's back rank)
+                # For white pieces, we need to flip the row
                 pos_row = 7 - row if is_white else row
 
                 if piece_type == "p":
@@ -800,25 +815,50 @@ class ChessAI:
                 else:
                     bonus = 0
 
-                # Apply bonus: positive for black, negative for white
+                # Apply bonus correctly: tables are for BLACK, so negate for WHITE
                 if is_white:
-                    score -= bonus
+                    score -= bonus  # White wants low bonus values (negative of black's advantage)
                 else:
-                    score += bonus
+                    score += bonus  # Black gets bonus as-is
 
         # Endgame mop-up evaluation - FIXED
-        if black_material > white_material + 200 and black_king_pos and white_king_pos:
-            # Push white king to edge
-            white_dist_center = max(3 - white_king_pos[0], white_king_pos[0] - 4) + max(
-                3 - white_king_pos[1], white_king_pos[1] - 4
-            )
-            score += white_dist_center * 10
+        # Endgame mop-up evaluation - ENHANCED
+        total_material = black_material + white_material
 
-            # Bring kings closer
-            dist_between_kings = abs(black_king_pos[0] - white_king_pos[0]) + abs(
-                black_king_pos[1] - white_king_pos[1]
-            )
-            score += (14 - dist_between_kings) * 5
+        # In endgame with material advantage
+        if total_material < 2500:  # Endgame
+            if (
+                black_material > white_material + 200
+                and black_king_pos
+                and white_king_pos
+            ):
+                # Push losing king to edge
+                white_dist_center = max(
+                    3 - white_king_pos[0], white_king_pos[0] - 4
+                ) + max(3 - white_king_pos[1], white_king_pos[1] - 4)
+                score += white_dist_center * 15  # Increased from 10
+
+                # Bring kings closer (for checkmate)
+                dist_between_kings = abs(black_king_pos[0] - white_king_pos[0]) + abs(
+                    black_king_pos[1] - white_king_pos[1]
+                )
+                score += (14 - dist_between_kings) * 8  # Increased from 5
+
+            elif (
+                white_material > black_material + 200
+                and black_king_pos
+                and white_king_pos
+            ):
+                # Opposite case
+                black_dist_center = max(
+                    3 - black_king_pos[0], black_king_pos[0] - 4
+                ) + max(3 - black_king_pos[1], black_king_pos[1] - 4)
+                score -= black_dist_center * 15
+
+                dist_between_kings = abs(black_king_pos[0] - white_king_pos[0]) + abs(
+                    black_king_pos[1] - white_king_pos[1]
+                )
+                score -= (14 - dist_between_kings) * 8
 
         return score
 
@@ -829,8 +869,8 @@ class ChessAI:
         # Detect forks (much higher bonus)
         black_forks = self._detect_forks(board, "black")
         white_forks = self._detect_forks(board, "white")
-        bonus += black_forks * 150
-        bonus -= white_forks * 150
+        bonus += black_forks * 250  # Increased from 150
+        bonus -= white_forks * 250
 
         # Record successful fork patterns
         if black_forks > 0:
@@ -841,8 +881,8 @@ class ChessAI:
         # Detect pins (higher bonus)
         black_pins = self._detect_pins(board, "black")
         white_pins = self._detect_pins(board, "white")
-        bonus += black_pins * 100
-        bonus -= white_pins * 100
+        bonus += black_pins * 180
+        bonus -= white_pins * 180
 
         # Detect skewers
         black_skewers = self._detect_skewers(board, "black")
@@ -859,18 +899,25 @@ class ChessAI:
         return bonus
 
     def _detect_forks(self, board, color):
-        """Enhanced fork detection"""
+        """Enhanced fork detection - ALL PIECES"""
         fork_count = 0
         for r in range(8):
             for c in range(8):
                 piece = board[r][c]
-                if (
-                    piece
-                    and self.is_correct_color(piece, color)
-                    and piece.lower() == "n"
-                ):
-                    attacked_pieces = []
-                    knight_moves = [
+                if not piece or not self.is_correct_color(piece, color):
+                    continue
+
+                piece_type = piece.lower()
+
+                # Skip pawns and kings (don't fork effectively)
+                if piece_type in ["p", "k"]:
+                    continue
+
+                # Get all squares this piece attacks
+                attacked_pieces = []
+
+                if piece_type == "n":
+                    directions = [
                         (-2, -1),
                         (-2, 1),
                         (-1, -2),
@@ -880,23 +927,56 @@ class ChessAI:
                         (2, -1),
                         (2, 1),
                     ]
+                elif piece_type == "b":
+                    directions = [(-1, -1), (-1, 1), (1, -1), (1, 1)]
+                elif piece_type == "r":
+                    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+                elif piece_type == "q":
+                    directions = [
+                        (-1, -1),
+                        (-1, 0),
+                        (-1, 1),
+                        (0, -1),
+                        (0, 1),
+                        (1, -1),
+                        (1, 0),
+                        (1, 1),
+                    ]
+                else:
+                    continue
 
-                    for dr, dc in knight_moves:
+                # For sliding pieces, check along rays
+                for dr, dc in directions:
+                    if piece_type == "n":
+                        # Knights: single jump
                         nr, nc = r + dr, c + dc
                         if 0 <= nr < 8 and 0 <= nc < 8:
                             target = board[nr][nc]
                             if target and self.is_opposite_color(piece, target):
-                                # Weight by piece value
                                 piece_value = abs(self.piece_values.get(target, 0))
                                 attacked_pieces.append((target, piece_value))
+                    else:
+                        # Sliding pieces: check ray
+                        for dist in range(1, 8):
+                            nr, nc = r + dr * dist, c + dc * dist
+                            if not (0 <= nr < 8 and 0 <= nc < 8):
+                                break
+                            target = board[nr][nc]
+                            if target:
+                                if self.is_opposite_color(piece, target):
+                                    piece_value = abs(self.piece_values.get(target, 0))
+                                    attacked_pieces.append((target, piece_value))
+                                break
 
-                    if len(attacked_pieces) >= 2:
-                        # Better fork if attacking high-value pieces
-                        total_value = sum(val for _, val in attacked_pieces)
-                        if total_value > 600:  # Queen or rook involved
-                            fork_count += 2
-                        else:
-                            fork_count += 1
+                # Count forks (attacking 2+ valuable pieces)
+                if len(attacked_pieces) >= 2:
+                    total_value = sum(val for _, val in attacked_pieces)
+                    if total_value > 1000:  # Two rooks or queen + rook
+                        fork_count += 3
+                    elif total_value > 600:  # Queen or rook involved
+                        fork_count += 2
+                    else:
+                        fork_count += 1
 
         return fork_count
 
@@ -1062,10 +1142,13 @@ class ChessAI:
         for r, c in center_squares:
             piece = board[r][c]
             if piece:
+                multiplier = (
+                    2.0 if self.game_phase == "opening" else 1.0
+                )  # More important in opening
                 if self.is_correct_color(piece, "black"):
-                    bonus += int(30 * center_weight)
+                    bonus += int(30 * center_weight * multiplier)
                 else:
-                    bonus -= int(30 * center_weight)
+                    bonus -= int(30 * center_weight * multiplier)
 
         for r, c in extended_center:
             piece = board[r][c]
@@ -1100,7 +1183,14 @@ class ChessAI:
         white_mobility = len(self.get_all_pseudo_legal_moves(board, "white"))
 
         # More mobility is better (weighted by game phase)
-        mobility_weight = 3 if self.game_phase == "middlegame" else 2
+        # Mobility more important in middlegame
+        if self.game_phase == "middlegame":
+            mobility_weight = 5
+        elif self.game_phase == "opening":
+            mobility_weight = 3
+        else:  # endgame
+            mobility_weight = 2
+
         return (black_mobility - white_mobility) * mobility_weight
 
     def _evaluate_king_safety(self, board):
@@ -1118,7 +1208,7 @@ class ChessAI:
                 if 0 <= kc + dc < 8 and kr + 1 < 8:
                     if board[kr + 1][kc + dc] == "p":
                         shield_count += 1
-            bonus += shield_count * 15
+            bonus += shield_count * 25  # Increased from 15
 
         if white_king_pos and self.game_phase != "endgame":
             # Check pawn shield for white
@@ -1128,7 +1218,7 @@ class ChessAI:
                 if 0 <= kc + dc < 8 and kr - 1 >= 0:
                     if board[kr - 1][kc + dc] == "P":
                         shield_count += 1
-            bonus -= shield_count * 15
+            bonus -= shield_count * 25  # Increased from 15
 
         return bonus
 
@@ -1153,7 +1243,8 @@ class ChessAI:
                 if piece and piece.lower() == "p":
                     if self._is_passed_pawn(board, row, col, piece):
                         distance_to_promotion = row if piece == "p" else (7 - row)
-                        pawn_bonus = (7 - distance_to_promotion) * 20
+                        # Exponential bonus - closer = MUCH more valuable
+                        pawn_bonus = (8 - distance_to_promotion) ** 2 * 15
                         if piece == "p":
                             bonus += pawn_bonus
                         else:
@@ -1237,11 +1328,11 @@ class ChessAI:
         if cached:
             return cached["score"]
 
-        # Terminal conditions
+        # Terminal conditions - prefer faster checkmates
         if self.is_checkmate(board, "white"):
-            return 50000  # Black wins
+            return 50000 + depth * 100  # Prefer faster checkmates
         if self.is_checkmate(board, "black"):
-            return -50000  # White wins
+            return -50000 - depth * 100  # Avoid longer resistance
         if self.is_stalemate(board, "white") or self.is_stalemate(board, "black"):
             return 0
         if self.is_insufficient_material(board):
@@ -1252,6 +1343,15 @@ class ChessAI:
         # Quiescence search at depth 0
         if depth == 0:
             return self.quiescence_search(board, alpha, beta, maximizing_player)
+
+        # Null move pruning for deeper searches (not in check)
+        if depth >= 3 and not self.is_in_check(
+            board, "black" if maximizing_player else "white"
+        ):
+            if self.null_move_pruning(
+                board, depth, beta if maximizing_player else alpha, maximizing_player
+            ):
+                return beta if maximizing_player else alpha
 
         if maximizing_player:
             max_eval = float("-inf")
@@ -1267,7 +1367,12 @@ class ChessAI:
 
             best_move = None
             for move in moves:
-                if self.time_up:  # Check time in loop
+                # Check time MORE FREQUENTLY
+                if (
+                    self.time_up
+                    or (time.time() - self.search_start_time) > self.time_limit
+                ):
+                    self.time_up = True
                     break
 
                 temp_board = self.make_move_simple(
@@ -1280,7 +1385,7 @@ class ChessAI:
 
                 # Avoid repeated positions - ANTI-REPETITION FIX
                 if self.is_position_repeated(temp_board):
-                    eval_score = max_eval - 200  # Penalty for repetition
+                    eval_score = -500  # Strong penalty for repetition
                 else:
                     eval_score = self.minimax(temp_board, depth - 1, alpha, beta, False)
 
@@ -1311,7 +1416,12 @@ class ChessAI:
 
             best_move = None
             for move in moves:
-                if self.time_up:  # Check time in loop
+                # Check time MORE FREQUENTLY
+                if (
+                    self.time_up
+                    or (time.time() - self.search_start_time) > self.time_limit
+                ):
+                    self.time_up = True
                     break
 
                 temp_board = self.make_move_simple(
@@ -1323,7 +1433,9 @@ class ChessAI:
                 )
 
                 if self.is_position_repeated(temp_board):
-                    eval_score = min_eval + 200  # Penalty for repetition
+                    eval_score = (
+                        500  # Strong penalty for repetition (from white's perspective)
+                    )
                 else:
                     eval_score = self.minimax(temp_board, depth - 1, alpha, beta, True)
 
@@ -1340,12 +1452,35 @@ class ChessAI:
             self.store_position(board, depth, min_eval, "exact", best_move)
             return min_eval
 
+    def null_move_pruning(self, board, depth, beta, maximizing_player):
+        """Null move pruning - assume opponent passes, see if we're still winning"""
+        if depth < 3:  # Don't use in shallow searches
+            return False
+
+        # Try a "null move" - what if opponent does nothing?
+        R = 2  # Reduction factor
+        score = self.minimax(
+            board, depth - 1 - R, float("-inf"), beta, not maximizing_player
+        )
+
+        # If we're STILL winning even if opponent gets a free move, we can prune
+        if maximizing_player and score >= beta:
+            return True
+        if not maximizing_player and score <= beta:
+            return True
+
+        return False
+
     def quiescence_search(self, board, alpha, beta, maximizing_player, depth=0):
         """Quiescence search to avoid horizon effect - FIXED depth limit"""
         self.quiescence_nodes += 1
 
-        # CRITICAL: Limit quiescence depth properly
-        if depth > 3 or self.time_up:
+        # CRITICAL: Limit quiescence depth STRICTLY + time check
+        if (
+            depth > 2
+            or self.time_up
+            or (time.time() - self.search_start_time) > self.time_limit
+        ):
             return self.evaluate_board(board)
 
         stand_pat = self.evaluate_board(board)
@@ -1360,8 +1495,12 @@ class ChessAI:
             captures = self._get_capture_moves(board, "black")
             captures = self._order_captures(board, captures)
 
-            for move in captures[:10]:  # Limit captures checked
-                if self.time_up:
+            for move in captures[:5]:  # Limit captures checked MORE strictly
+                if (
+                    self.time_up
+                    or (time.time() - self.search_start_time) > self.time_limit
+                ):
+                    self.time_up = True
                     break
 
                 temp_board = self.make_move_simple(
@@ -1392,8 +1531,12 @@ class ChessAI:
             captures = self._get_capture_moves(board, "white")
             captures = self._order_captures(board, captures)
 
-            for move in captures[:10]:  # Limit captures checked
-                if self.time_up:
+            for move in captures[:5]:  # Limit captures checked MORE strictly
+                if (
+                    self.time_up
+                    or (time.time() - self.search_start_time) > self.time_limit
+                ):
+                    self.time_up = True
                     break
 
                 temp_board = self.make_move_simple(
@@ -1495,10 +1638,12 @@ class ChessAI:
                 score += 500
 
             # Checks
-            temp_board = self.make_move_simple(board, from_r, from_c, to_r, to_c)
-            opponent_color = "white" if color == "black" else "black"
-            if self.is_in_check(temp_board, opponent_color):
-                score += 300
+            # Checks (EXPENSIVE - only check for high-value moves)
+            if score > 500:  # Only check if move already looks promising
+                temp_board = self.make_move_simple(board, from_r, from_c, to_r, to_c)
+                opponent_color = "white" if color == "black" else "black"
+                if self.is_in_check(temp_board, opponent_color):
+                    score += 800  # Checks are VERY valuable
 
             # Center control
             if to_r in [3, 4] and to_c in [3, 4]:
@@ -1557,57 +1702,131 @@ class ChessAI:
         }
 
     def iterative_deepening(self, board, max_depth, time_limit, color):
-        """Iterative deepening search with time management"""
+        """Enhanced iterative deepening with aspiration windows"""
         self.search_start_time = time.time()
         self.time_limit = time_limit
         self.time_up = False
 
         best_move = None
         best_score = float("-inf") if color == "black" else float("inf")
+        prev_score = 0
 
         for depth in range(1, max_depth + 1):
-            if self.time_up:
+            if (
+                self.time_up
+                or (time.time() - self.search_start_time) > time_limit * 0.9
+            ):
                 break
 
-            legal_moves = self.get_all_legal_moves(board, color)
-            if not legal_moves:
-                break
-
-            legal_moves = self.order_moves(board, legal_moves, color, depth)
-
-            current_best = None
-            current_score = float("-inf") if color == "black" else float("inf")
-
-            for move in legal_moves:
-                if self.time_up:
+            # Use aspiration windows for depths > 2
+            if depth > 2 and best_move:
+                current_best, current_score = self.aspiration_window_search(
+                    board, depth, prev_score, color
+                )
+            else:
+                legal_moves = self.get_all_legal_moves(board, color)
+                if not legal_moves:
                     break
 
-                temp_board = self.make_move_simple(
-                    board,
-                    move["from"]["row"],
-                    move["from"]["col"],
-                    move["to"]["row"],
-                    move["to"]["col"],
-                )
+                legal_moves = self.order_moves(board, legal_moves, color, depth)
 
-                if color == "black":
-                    score = self.minimax(
-                        temp_board, depth - 1, float("-inf"), float("inf"), False
+                current_best = None
+                current_score = float("-inf") if color == "black" else float("inf")
+
+                for move in legal_moves:
+                    if (
+                        self.time_up
+                        or (time.time() - self.search_start_time) > time_limit * 0.9
+                    ):
+                        break
+
+                    temp_board = self.make_move_simple(
+                        board,
+                        move["from"]["row"],
+                        move["from"]["col"],
+                        move["to"]["row"],
+                        move["to"]["col"],
                     )
-                    if score > current_score:
-                        current_score = score
-                        current_best = move
-                else:
-                    score = self.minimax(
-                        temp_board, depth - 1, float("-inf"), float("inf"), True
-                    )
-                    if score < current_score:
-                        current_score = score
-                        current_best = move
+
+                    if color == "black":
+                        score = self.minimax(
+                            temp_board, depth - 1, float("-inf"), float("inf"), False
+                        )
+                        if score > current_score:
+                            current_score = score
+                            current_best = move
+                    else:
+                        score = self.minimax(
+                            temp_board, depth - 1, float("-inf"), float("inf"), True
+                        )
+                        if score < current_score:
+                            current_score = score
+                            current_best = move
 
             if current_best and not self.time_up:
                 best_move = current_best
                 best_score = current_score
+                prev_score = current_score
+
+                # Print depth info for debugging
+                print(
+                    f"Depth {depth} complete: score={best_score}, time={(time.time() - self.search_start_time):.2f}s"
+                )
+
+        return best_move, best_score
+
+    def aspiration_window_search(self, board, depth, prev_score, color):
+        """Search with aspiration windows for faster pruning"""
+        window = 50
+        alpha = prev_score - window
+        beta = prev_score + window
+
+        legal_moves = self.get_all_legal_moves(board, color)
+        if not legal_moves:
+            return None, prev_score
+
+        legal_moves = self.order_moves(board, legal_moves, color, depth)
+
+        best_move = legal_moves[0]
+        best_score = float("-inf") if color == "black" else float("inf")
+
+        for move in legal_moves:
+            if self.time_up:
+                break
+
+            temp_board = self.make_move_simple(
+                board,
+                move["from"]["row"],
+                move["from"]["col"],
+                move["to"]["row"],
+                move["to"]["col"],
+            )
+
+            if color == "black":
+                score = self.minimax(temp_board, depth - 1, alpha, beta, False)
+
+                # Re-search if outside window
+                if score <= alpha or score >= beta:
+                    score = self.minimax(
+                        temp_board, depth - 1, float("-inf"), float("inf"), False
+                    )
+
+                if score > best_score:
+                    best_score = score
+                    best_move = move
+                    alpha = max(alpha, score)
+            else:
+                score = self.minimax(temp_board, depth - 1, alpha, beta, True)
+
+                if score <= alpha or score >= beta:
+                    score = self.minimax(
+                        temp_board, depth - 1, float("-inf"), float("inf"), True
+                    )
+
+                if score < best_score:
+                    best_score = score
+                    best_move = move
+                    beta = min(beta, score)
 
         return best_move, best_score
 
@@ -1661,10 +1880,19 @@ class ChessAI:
                         "thought_process": "Using opening book move",
                     }
 
-        # Use iterative deepening for best move
+            # Use iterative deepening for best move
         best_move, best_score = self.iterative_deepening(
             board, max_depth, time_limit, "black"
         )
+
+        # Apply evaluation noise for lower difficulties
+        if (
+            "eval_noise" in config
+            and config["eval_noise"] > 0
+            and best_score is not None
+        ):
+            noise = random.uniform(-config["eval_noise"], config["eval_noise"])
+            best_score = best_score * (1 + noise)
 
         if not best_move:
             # Fallback: pick best move from legal moves
@@ -1681,11 +1909,35 @@ class ChessAI:
 
         # Add some randomness for lower difficulties
         if randomness > 0 and random.random() < randomness:
-            # Pick a random good move instead
+            # Pick from top moves with weighted probability
             candidate_moves = self.order_moves(board, legal_moves, "black", max_depth)[
-                :5
+                :8
             ]
-            best_move = random.choice(candidate_moves)
+
+            # Evaluate top candidates
+            scored_moves = []
+            for move in candidate_moves[:5]:  # Only top 5
+                temp_board = self.make_move_simple(
+                    board,
+                    move["from"]["row"],
+                    move["from"]["col"],
+                    move["to"]["row"],
+                    move["to"]["col"],
+                )
+                score = self.evaluate_board(temp_board)
+                scored_moves.append((move, score))
+
+            # Sort by score
+            scored_moves.sort(key=lambda x: x[1], reverse=True)
+
+            # Pick from top 3 with weighted randomness
+            if len(scored_moves) >= 3:
+                weights = [0.6, 0.3, 0.1]  # 60% best, 30% second, 10% third
+                best_move = random.choices(
+                    [m[0] for m in scored_moves[:3]], weights=weights
+                )[0]
+            else:
+                best_move = scored_moves[0][0] if scored_moves else best_move
 
         # Calculate evaluation
         final_eval = self.evaluate_board(
