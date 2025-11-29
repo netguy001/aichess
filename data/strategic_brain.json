@@ -1,0 +1,5473 @@
+{
+  "opening_book": {
+    "291e4d71e206a2098cd99489661d2e5d": {
+      "e7e5": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "total_games": 1,
+        "avg_score": -1000.0,
+        "scores": [
+          -1000
+        ]
+      }
+    },
+    "0567dbceddf15d0fa79d524df2807a28": {
+      "a7a6": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "total_games": 1,
+        "avg_score": -1000.0,
+        "scores": [
+          -1000
+        ]
+      },
+      "d8g5": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "total_games": 1,
+        "avg_score": -1000.0,
+        "scores": [
+          -1000
+        ]
+      }
+    },
+    "2e6b985f920c0c6d5f39591b39eddf94": {
+      "e5e4": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "total_games": 1,
+        "avg_score": -1000.0,
+        "scores": [
+          -1000
+        ]
+      }
+    },
+    "baf1cc28411125a3c79af56463aee7e0": {
+      "e4c6": {
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "total_games": 1,
+        "avg_score": -1000.0,
+        "scores": [
+          -1000
+        ]
+      }
+    }
+  },
+  "middlegame_strategies": {
+    "open_position": {},
+    "closed_position": {},
+    "tactical_position": {},
+    "strategic_position": {}
+  },
+  "endgame_knowledge": {},
+  "successful_tactics": {
+    "forks": [],
+    "pins": [],
+    "skewers": [],
+    "discovered_attacks": [],
+    "sacrifices": []
+  },
+  "defensive_patterns": {
+    "escape_sequences": [],
+    "counter_attacks": [],
+    "fortress_positions": []
+  },
+  "position_memory": {
+    "5a48178d465e90de61383caf9c2e2495": {
+      "eval": 137,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:47.027499"
+    },
+    "df7e1f32bd09c270f50c243777b9f126": {
+      "eval": 10,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:47.302164"
+    },
+    "7213d9af67818cd62f58790c9bb0f557": {
+      "eval": 369,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:48.006264"
+    },
+    "d844a3bb98d89e988db4d05da02ca73c": {
+      "eval": 135,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:48.142266"
+    },
+    "141f0202f5c0c8996920d0254eac029a": {
+      "eval": 61.7,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:04:00.426377"
+    },
+    "c67dfda2bd98cb9d59fc559943d5c40a": {
+      "eval": 152,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:55.382412"
+    },
+    "65a48ab3e45b24b74779bd54cd55417c": {
+      "eval": 630,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:55.708584"
+    },
+    "2e33d85afea817817c5b29b5dc2903a9": {
+      "eval": -88,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:56.463740"
+    },
+    "5a5bcc61e9dcd4fe8a407e091bbe6d1a": {
+      "eval": 213,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:57.351200"
+    },
+    "9f37ec45439258d61f5eeda07173f038": {
+      "eval": 156,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:57.611640"
+    },
+    "784274cb09a7e6d07733f7216d5db34c": {
+      "eval": 128,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:57.867956"
+    },
+    "46c0bdf6fe993be24ff6c27cf9f7124c": {
+      "eval": 83,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:58.026757"
+    },
+    "3d529363cadbdfbe6e95ce7b26ac8711": {
+      "eval": 62,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:01:58.278631"
+    },
+    "137bba2a5645e7d67fd9bbdfa1820dc3": {
+      "eval": 112.0,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:02:05.369088"
+    },
+    "1269be8e7aad3cddb1b6dfabd557f5c5": {
+      "eval": 183.59999999999997,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:02:05.682164"
+    },
+    "89f8b4bc10387262a54af9cee3b2596a": {
+      "eval": 47,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:04.717259"
+    },
+    "7ce2fd1168a366c403372819b58e24c4": {
+      "eval": -64,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:05.370996"
+    },
+    "ab31cb2c4733bbffc779374a78a1a293": {
+      "eval": 156,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.119135"
+    },
+    "6706df1208819e31a662323ea7518dfd": {
+      "eval": 233,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.541059"
+    },
+    "7aa39110668c042947473c6b429517bc": {
+      "eval": -444,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.543229"
+    },
+    "b58378cd880c7e24a6b9db5545ceb376": {
+      "eval": -324,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.545140"
+    },
+    "7f566f2be9f07bc34f1120952c29535e": {
+      "eval": -2314,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.546998"
+    },
+    "f61fec6c7f5b4157fff15f8019ca0636": {
+      "eval": -233,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.548633"
+    },
+    "326c282a4ee5d046c356d8a0dd82ee13": {
+      "eval": -198,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.549901"
+    },
+    "b7187b5bc8ff9bd2aa04ea88467aed0f": {
+      "eval": -1424,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.550912"
+    },
+    "7741e9732b9202cab89a7ce81e91df3a": {
+      "eval": 109,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.552677"
+    },
+    "e0ad2a795fc0347e431a50b6535ee451": {
+      "eval": -288,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.553961"
+    },
+    "ac65da0be8e0f1c532ee61ab5e26929a": {
+      "eval": -162,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.556065"
+    },
+    "1323ab38c60d9dcd016527204a46ad97": {
+      "eval": -1388,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.557099"
+    },
+    "c50d95e75bcf68887aed65af6d721b7e": {
+      "eval": 153,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.558816"
+    },
+    "a782810eb7a85edcdba6257b9c4752e1": {
+      "eval": -568,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.560122"
+    },
+    "b44aa945716d3f501cb18b5c2a5f6fb8": {
+      "eval": 539,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.562055"
+    },
+    "28b378264dfe13eae2b650e779401c6e": {
+      "eval": 359,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.563487"
+    },
+    "4e719578439555d779b34f61d3891209": {
+      "eval": -947,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.564590"
+    },
+    "514e84d56c14a263244f88a2aedf40bd": {
+      "eval": 739,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.566544"
+    },
+    "6eef2e071e70dbdf44061e66aa8b2db5": {
+      "eval": -3,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:06.568488"
+    },
+    "3890bb99e40d4b20dac7142c4fef10c1": {
+      "eval": 346,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:07.028774"
+    },
+    "456f2de9a869dc4cbc000ecbe6a31a83": {
+      "eval": -17,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:07.030781"
+    },
+    "1901dfee3c6266258151c8d1d445db0a": {
+      "eval": 178,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:10.827776"
+    },
+    "09c3923dee36fe73c5ac4c1fa3bb1f4f": {
+      "eval": -187,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:11.128885"
+    },
+    "c78874021c742b2f242749d033679353": {
+      "eval": 89,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:11.437872"
+    },
+    "5627c072d65e75f032873a7091960330": {
+      "eval": 112,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:11.742868"
+    },
+    "b4b054f40457096e434eac34e5c44789": {
+      "eval": -938,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:12.109509"
+    },
+    "ce4d192f82dc6c5c95c7afd68acf5997": {
+      "eval": 1310,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:12.563741"
+    },
+    "a9ac368f77e58f5b1be13a591947e3bf": {
+      "eval": 136,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:12.565839"
+    },
+    "ebc9f2ec617e6b234eeffee19e29edab": {
+      "eval": -262,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:12.977126"
+    },
+    "1409d899d1851ee9ddedfe20533b07fa": {
+      "eval": -272,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:12.979380"
+    },
+    "2d343bbee92df704cd0e550de5049ec6": {
+      "eval": 574,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:12.981289"
+    },
+    "d520f5e10be1236fbdfc336b14374f7a": {
+      "eval": -381,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:12.983302"
+    },
+    "e7e353132b9616374aff51126c2cedea": {
+      "eval": 587,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:12.985239"
+    },
+    "b04c443c7109bf2c74264eb74ad7b5fc": {
+      "eval": 106,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:13.311362"
+    },
+    "8e27348d4e0582d75f438da790a65969": {
+      "eval": -99,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:21.034248"
+    },
+    "d124daddfad28a8cbd16016a32aa3f47": {
+      "eval": 75,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:21.340772"
+    },
+    "278d7a4099ea5222d25399ba5181ddec": {
+      "eval": 55,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:21.703931"
+    },
+    "7fc8d263fe8fba81e8dfd71dfbccf55a": {
+      "eval": 101,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:22.124131"
+    },
+    "82e289b81c1f7c0aec7b0291685023a4": {
+      "eval": 103,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:22.495388"
+    },
+    "1d43493d162f8cdd90aa079bb40cd358": {
+      "eval": -145,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:29.870448"
+    },
+    "43a208ddbea54b59ec93ad5cb3b78242": {
+      "eval": -322,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:30.257692"
+    },
+    "52c0619bec4de630e4e3c1a73fd8860a": {
+      "eval": -217,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:30.727561"
+    },
+    "a259412f9eca38e723a1f14d564a49a6": {
+      "eval": -84,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:31.706491"
+    },
+    "39078881d7f3a3f9130d8488082f1eb1": {
+      "eval": -142,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:32.076551"
+    },
+    "91c1b098a4200e03847c70d178c63f8f": {
+      "eval": 305,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:32.411324"
+    },
+    "a46ff649bcd2e22183533f10865c8c6e": {
+      "eval": 3,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:33.025521"
+    },
+    "1b55654931740465d678a3de6f8c3017": {
+      "eval": -527,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:33.028135"
+    },
+    "155ffdae17e3ee16f6ded4bbe995e82d": {
+      "eval": -48,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:33.030376"
+    },
+    "44286ef622e2b7f75ea1976ebe715e5a": {
+      "eval": 25,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:33.032010"
+    },
+    "844da15e87f371119b7d511940771331": {
+      "eval": -236,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:33.033560"
+    },
+    "c6401e54415a9ceaa777895620611d9c": {
+      "eval": -137,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:36.882057"
+    },
+    "ed08827e05ebfaf59449e7683b4192fc": {
+      "eval": 998,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:36.884631"
+    },
+    "318cd3f0a63b23a23057fcbf5be69548": {
+      "eval": -60,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:37.636279"
+    },
+    "ae7a6d27006ac25d8fe37187487658c1": {
+      "eval": -157,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:38.340008"
+    },
+    "ad082998f9f64e2a26c3d206dd16f40b": {
+      "eval": 976,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:38.342144"
+    },
+    "386c7688d5be33685f3a2d35220d5355": {
+      "eval": -193,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:38.959874"
+    },
+    "4299c324275a4eb2bd6e95e5cf53ed9f": {
+      "eval": 984,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:38.962034"
+    },
+    "2e0b46363875a5262f33bfdbd5c4797b": {
+      "eval": 774,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:38.963928"
+    },
+    "1ea8166925be3933101c55a0731e207f": {
+      "eval": 105,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:39.481862"
+    },
+    "08934f3499753f6995e088280fc7ffb2": {
+      "eval": 626,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:39.868221"
+    },
+    "738f621ad81aca2d96308338bdedb826": {
+      "eval": 384,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:39.870340"
+    },
+    "3a3fb6ff203f92516a2042d8cd218032": {
+      "eval": 776,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:39.872357"
+    },
+    "6c54b75753deeceae368659dc9896a7e": {
+      "eval": -246,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:39.874199"
+    },
+    "6e55e6b44c3e3e90860337c281177733": {
+      "eval": 199.79999999999998,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:02:39.878742"
+    },
+    "8aef1d340d5438744a3ea4db422b0b64": {
+      "eval": -81,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:39.877542"
+    },
+    "fc8504cdfa8fb65f51fb4f1c9705036a": {
+      "eval": -409,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:40.226629"
+    },
+    "d31f9960e6158ec1406e718092ab5520": {
+      "eval": 79,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.340971"
+    },
+    "70465f066aa59ce9745a7bb819c596de": {
+      "eval": -990,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.702604"
+    },
+    "feb2f9bc11391e98ce8789c0fc1c63bc": {
+      "eval": 871,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.704450"
+    },
+    "68fe7536c6eb01cbc41c5aa2fb6a103b": {
+      "eval": 697,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.706495"
+    },
+    "56f0c912698a8ef491632ec62f15d390": {
+      "eval": 1067,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.708588"
+    },
+    "6e68992a279653272fc71722ed578d86": {
+      "eval": 712,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.710464"
+    },
+    "42c7cc6e7f42678bf5883695ae236e64": {
+      "eval": 960,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.711729"
+    },
+    "fcc4b980a69616f9839cb368db0126e8": {
+      "eval": 786,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.713651"
+    },
+    "2300878355d54cb34a69e017436990a6": {
+      "eval": 1062,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.715713"
+    },
+    "42d80dcc37a21b88160dac9b26cdddaa": {
+      "eval": 64,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.717546"
+    },
+    "4414eeb7ac991d0d68835a555cc9f481": {
+      "eval": 1911,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.718604"
+    },
+    "c6ef8be03693cc8b64d61eda4eecda80": {
+      "eval": -77,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.720547"
+    },
+    "37f90912fd4cf012ca8c98f58e6b4b45": {
+      "eval": 857,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.721819"
+    },
+    "6a54bebf2d5a25b4cdc6798233ce1b57": {
+      "eval": 603,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:47.723729"
+    },
+    "e8bccae0cdcb1b142527e7267a2aa073": {
+      "eval": -312,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:49.592962"
+    },
+    "758317c93042fd9620b966c7563e511f": {
+      "eval": -486,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:49.595455"
+    },
+    "5159280409bf4d472dff70409967ef3a": {
+      "eval": -163,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:50.266817"
+    },
+    "d7615583702d6f31feceb373a4fa750a": {
+      "eval": -540,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:50.269022"
+    },
+    "ab9e3f23edae108b480c021a445a9923": {
+      "eval": -1515,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:50.270471"
+    },
+    "e80f710d5aa70b4683bb6f7b5579895c": {
+      "eval": 576,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:50.272226"
+    },
+    "a1c0908f77b46323bec98157c27eb608": {
+      "eval": 140,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:50.274190"
+    },
+    "09478cf7d961e46a0b87478f60446063": {
+      "eval": 351,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:50.275460"
+    },
+    "2afd47de11ce5714a0e8912c746c6884": {
+      "eval": -648,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:50.276693"
+    },
+    "120100a95ddca2d3c128766ebcc49a94": {
+      "eval": -185,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:55.322847"
+    },
+    "92cf774b67c1d35351e1c298b19b3d28": {
+      "eval": -26,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:55.979573"
+    },
+    "a45f13366e233cbe58dd0301d91cf6fb": {
+      "eval": 974,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:55.981409"
+    },
+    "cfa3401da47d670a5e61f5470ddaa739": {
+      "eval": 804,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:55.983303"
+    },
+    "0387ff613ae8a29004c5a05c666a3b82": {
+      "eval": -155,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:56.379363"
+    },
+    "cea52bd50a925e0125c7cac2cc886ed1": {
+      "eval": -229,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:56.704152"
+    },
+    "55467edecce6fe56f5a405878aaa65ea": {
+      "eval": -384,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.111303"
+    },
+    "92a78e938724d6b86696278ffcb54e63": {
+      "eval": 244,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.113212"
+    },
+    "fbc1976d1f1e43972eb11873fd583416": {
+      "eval": -617,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.115237"
+    },
+    "7ad53176523581f5ab27db363ef4b117": {
+      "eval": 631,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.116914"
+    },
+    "fa41883366cfa441dd24d75f18ce7e5d": {
+      "eval": 309,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.118756"
+    },
+    "2421ccb7aaa0e4af1d2428f4bdc4de64": {
+      "eval": -394,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.120003"
+    },
+    "d80b947ea1f19905a464f8216ca27d8c": {
+      "eval": 835,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.121737"
+    },
+    "3886617e06fadd778516650dbd66bccf": {
+      "eval": 515,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.123575"
+    },
+    "9438537d99918f47feda9b758b0f8b4b": {
+      "eval": -143,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.124903"
+    },
+    "667c31486906c7b374fc95860dd81577": {
+      "eval": 621,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.126899"
+    },
+    "d101a7f4823d262586279bcb395f319c": {
+      "eval": -240,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.129000"
+    },
+    "72dfc0cd5b52d7cec5715ceaa90b46ce": {
+      "eval": 51,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.130306"
+    },
+    "1ed0c6ee5c50ea26c4109c9577d7b4b8": {
+      "eval": -545,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.132397"
+    },
+    "0ee76eb9fb94e15c22b05a4546bb31e0": {
+      "eval": -62,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.133678"
+    },
+    "761873fb4678613e8a41378ed620e605": {
+      "eval": -62,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:02:57.134912"
+    },
+    "697296c65b23f432c8a3676c7f6425d8": {
+      "eval": -149,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:09.068224"
+    },
+    "5c9255919376a6ec09002523eddc3c4d": {
+      "eval": 969,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:09.070268"
+    },
+    "4727e1201dfe61acb96c7aa4654435e7": {
+      "eval": 785,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:09.072433"
+    },
+    "2100041064d54a74e87f5ed05d10130c": {
+      "eval": 946,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:09.073819"
+    },
+    "5cbf0bdad27bbd07f7ed23cf37d247ae": {
+      "eval": -155,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:09.974113"
+    },
+    "559e9c8a9088f91c7d226c44c87a5c45": {
+      "eval": 295,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:09.976154"
+    },
+    "47f4d265880cc70010eefff218f2fda6": {
+      "eval": -124,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:09.978201"
+    },
+    "f1a6daffa12ff3e212221c17d784a498": {
+      "eval": -186,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:09.980069"
+    },
+    "0cf58c0bea45c7e3ca9b53b9d47a2d22": {
+      "eval": -293,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:10.626718"
+    },
+    "facbbf48ae04e1ad7d75a07855c1e526": {
+      "eval": -310,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:11.316510"
+    },
+    "63a7fecfb238144241ad7a7c12116668": {
+      "eval": 915,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:11.319126"
+    },
+    "8f0fb61418803ad8f721ead30e8485a5": {
+      "eval": 356,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:11.321283"
+    },
+    "a58dcedc3945d0b0024a10673e7cbf07": {
+      "eval": 799,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:11.323470"
+    },
+    "7c4b26510b719996ae4eebfefceffb72": {
+      "eval": 512,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:11.325604"
+    },
+    "cc25c7efc935c56d470c43db9ee21602": {
+      "eval": 793,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:11.327329"
+    },
+    "1f647b8cb274ae5b1d7a3932304d45a1": {
+      "eval": 47,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:11.328829"
+    },
+    "9b4a0fbb19355de3a9c38eaa83c57834": {
+      "eval": -396,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:12.021425"
+    },
+    "d1c25fa621c82e2595e9123d415460aa": {
+      "eval": -5,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:23.530287"
+    },
+    "ed71e5ceafa3c044e0e4232330a202d1": {
+      "eval": 57,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:24.641985"
+    },
+    "ef96600d5eb2873a765ff3a10fdec46d": {
+      "eval": -289,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:25.325723"
+    },
+    "c308969f00bb0c3c9ca4dc0f699e03e2": {
+      "eval": 850,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:25.327593"
+    },
+    "ad606a9425c5e770ce5a84d4cb11ab4b": {
+      "eval": 674,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:03:25.329481"
+    },
+    "8bae6ca7e7e8e4f666d5b4a62fec3535": {
+      "eval": -349,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:01.214567"
+    },
+    "5059f65b4b38b814e7e8b65c8ee9bf0c": {
+      "eval": 225,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:01.216240"
+    },
+    "ce289544a8da6c97e547273b4b1dcb3b": {
+      "eval": 62,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:01.356312"
+    },
+    "7a148d62a33eaada539ed9905198d900": {
+      "eval": 94,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:01.491428"
+    },
+    "f1a24f63952eb991a146daf40f926a24": {
+      "eval": -251,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:01.678754"
+    },
+    "178e171b140eb962caa1939a4466c47e": {
+      "eval": -578,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:01.823014"
+    },
+    "f54c4c7e768fa8a9d86451c420e36778": {
+      "eval": 57,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:08.983886"
+    },
+    "2c36e65551fef1659899cf4ed43b92d8": {
+      "eval": 133,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:09.308235"
+    },
+    "30a97f0cf4da88635343a08fee7ae4ab": {
+      "eval": -90.00999999999999,
+      "depth": 1,
+      "games_seen": 3,
+      "last_seen": "2025-11-29T08:04:09.671141"
+    },
+    "1f8094cf6ba82533f3a5ea3a31718ef2": {
+      "eval": -138,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:10.119777"
+    },
+    "7e14e2fa73f18c6c68fae9765c6d56d1": {
+      "eval": -185,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:11.044454"
+    },
+    "0bc5dccaa24ec35ae6ccf67219991eca": {
+      "eval": 128.5,
+      "depth": 1,
+      "games_seen": 3,
+      "last_seen": "2025-11-29T08:04:11.478737"
+    },
+    "e0fba5f67252ee4968ee2d1e0a7b6435": {
+      "eval": 111.5,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:04:12.369682"
+    },
+    "83e2d15704c7461cd805265d9b3e4e77": {
+      "eval": -132,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:12.371211"
+    },
+    "8a7e5067f91e4b5d19f5484d3256ce59": {
+      "eval": 25,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:12.373584"
+    },
+    "97c1b88f748a8b86c113e4f58bab784e": {
+      "eval": -357,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:12.376155"
+    },
+    "1fcd4e50d18a5d79a13ac30ca2247443": {
+      "eval": -148,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:12.378249"
+    },
+    "4e636bb49eb05adbef0306b0af912f54": {
+      "eval": 75,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:12.379786"
+    },
+    "fb87060a6ea927a11e9dee50a05e4d49": {
+      "eval": -864,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:12.382162"
+    },
+    "01c2e0d6c9694853157b5cb08de74a49": {
+      "eval": -707,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:12.384521"
+    },
+    "726bc4c013bcfccc5defe2073277a3f1": {
+      "eval": 143.85,
+      "depth": 1,
+      "games_seen": 3,
+      "last_seen": "2025-11-29T08:04:14.071023"
+    },
+    "cf036ee2e77dba373d820206413e1b88": {
+      "eval": 60,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:14.551985"
+    },
+    "815472a1b9e308c5d0cf8ef3341f64a2": {
+      "eval": -43,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:21.428604"
+    },
+    "a6839d400f6e6b2d28ad4aae7c3c833d": {
+      "eval": 826,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:21.962863"
+    },
+    "aa1f14e2e59ddb35e1a9d5e31aced058": {
+      "eval": -121,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:22.842334"
+    },
+    "b12052be79bdfe2f7ddb6dd405a523fa": {
+      "eval": -386,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:22.844334"
+    },
+    "f7ade8b45b2ed27d7045efbc264164c6": {
+      "eval": 290,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:24.994615"
+    },
+    "266a5fc6c5e9f340780801649dc4a44b": {
+      "eval": -282,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:25.362717"
+    },
+    "761446cdefe91a1b4fd5ff95474df814": {
+      "eval": 867,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:25.679177"
+    },
+    "804a15abb86746daa238d324f8c236a4": {
+      "eval": -964,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:25.974076"
+    },
+    "a9e9da99cf7ea56cbe1acf70b4fb1870": {
+      "eval": 998,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:26.253263"
+    },
+    "f300adc8d4cb495864c30ccbd58238c3": {
+      "eval": 822,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:26.671118"
+    },
+    "df901678dac6c036c5e37770256b500d": {
+      "eval": 1130,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:26.674089"
+    },
+    "85fa1cf60a7acc897b0ece2e3cc88437": {
+      "eval": 855,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:26.676439"
+    },
+    "b675052b2b31634e9246c90596c8d8fe": {
+      "eval": 968,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:26.678068"
+    },
+    "ad63d68eae0a6faa54ba968c59bea6ff": {
+      "eval": -1310,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:27.178801"
+    },
+    "1c46b46873e7ecfd18cf70b8a3a5168c": {
+      "eval": 679,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:27.180370"
+    },
+    "53fd9d416991a2b7181a540e8b857a9e": {
+      "eval": -176,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:33.755726"
+    },
+    "bbd53c996c7a19aab290846062e37169": {
+      "eval": 317,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:33.758179"
+    },
+    "bf37200dbfcb6ef151c9b9357d3385ad": {
+      "eval": -531,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:33.760112"
+    },
+    "c99d75b87a35b1fe98a7d1b0e2d964ef": {
+      "eval": 711,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:33.761846"
+    },
+    "40667f8c8e601e1ac0e5942c38b163e9": {
+      "eval": -869,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:33.763907"
+    },
+    "1c1e080da5a537ff14cda72d0518685c": {
+      "eval": -52,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:33.766019"
+    },
+    "6aa456f1fa5b5744a195536034680918": {
+      "eval": -1000,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:33.768148"
+    },
+    "833d4898176ed7799fcd2fdb66501c86": {
+      "eval": -71,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:34.198583"
+    },
+    "2635f1b3f02ecfab05cceedeab5c5509": {
+      "eval": -199,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:34.575310"
+    },
+    "4df3cb2db45d1ec8bc9f30215cca6d35": {
+      "eval": -109,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:35.183756"
+    },
+    "5d83abd6bb88a7450f8f84820dc6e976": {
+      "eval": -163,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:35.660766"
+    },
+    "5420628ed08eb2c75e6e37e4e90363df": {
+      "eval": -122,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:36.460044"
+    },
+    "452623dca3681131a6bdf787869d9b6e": {
+      "eval": -147,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:37.102540"
+    },
+    "e8fb5521869cf97c4fc05a024882504f": {
+      "eval": -418,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:37.104483"
+    },
+    "67a81631cced4f2627405950a4ffaa23": {
+      "eval": -379,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:37.106378"
+    },
+    "b1698e5c2082f3186fbf4c1979e372f3": {
+      "eval": -640,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:37.108154"
+    },
+    "f2c0c0047ced256cdc17607b2d3584c3": {
+      "eval": 330,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:37.109861"
+    },
+    "9787c89abb52dc87c5ec871639740ba4": {
+      "eval": -1224,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:37.111050"
+    },
+    "1f025d720869c93b018861d4fdf9fb32": {
+      "eval": 732,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:37.112628"
+    },
+    "82ff1f4c472f85e8856c06bf09e85ca1": {
+      "eval": -1192,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:37.114496"
+    },
+    "194254757d3493b1612323006bbf2b65": {
+      "eval": -933,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:37.116181"
+    },
+    "82a54ddfb4d6c4e4c062777003eadf84": {
+      "eval": -472,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:41.504775"
+    },
+    "c250fb23b8571ae8e77cc02319f36c21": {
+      "eval": -511,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:41.852233"
+    },
+    "25413bb2ee49bcc0823f87a0765d4590": {
+      "eval": -349,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:42.141114"
+    },
+    "6c7742deeaa4063c124f67d1808785f9": {
+      "eval": -493,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:42.461253"
+    },
+    "10fe3e87376c9a16ca280fada053915d": {
+      "eval": -799,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:42.783599"
+    },
+    "f4915cfd7b2b3b12f16e067050de5ace": {
+      "eval": -608,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:43.088722"
+    },
+    "019143e9ea1eb25f04e438a22912e1c2": {
+      "eval": -374,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:43.389910"
+    },
+    "55d979b92461711847c40ef749675c36": {
+      "eval": -196,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:43.979818"
+    },
+    "ca4de4f9575b1b7e69dfeccf9635badf": {
+      "eval": -467,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:43.981704"
+    },
+    "6eb15e20382ab7fbac5ef2cef721f878": {
+      "eval": -443,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:43.982908"
+    },
+    "f3b0c712ae5a57d62bbccb69e4f4cae0": {
+      "eval": -1174,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:43.984010"
+    },
+    "e5090ba0bf098e857c8e1e3e0d5db86e": {
+      "eval": -363,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:44.880847"
+    },
+    "15e44daf55da559db00a4d0d6fd72f20": {
+      "eval": -615,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:44.882484"
+    },
+    "ac7ba2b79bf9a07d5d55e339663286c8": {
+      "eval": -305,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:44.884214"
+    },
+    "1b300790a7e83036aa07becfa6978652": {
+      "eval": -1806,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:44.885702"
+    },
+    "19ad66afea569fbb2fa40381499deac2": {
+      "eval": -1645,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:44.887363"
+    },
+    "bca914139406699964185f234c2d6b6e": {
+      "eval": -388,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:44.888559"
+    },
+    "75a5e4a40140f06ffa5171e95171e125": {
+      "eval": -624,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:45.389539"
+    },
+    "2c41e4c15c0c40dcd82469075d76f0d3": {
+      "eval": 757,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:45.691377"
+    },
+    "37ffbbf1f8ded11de22370dc2b1f4dec": {
+      "eval": -1167,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:45.693509"
+    },
+    "ff80a807c62ce9eec0c9bac8388914dc": {
+      "eval": -1141,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:45.694811"
+    },
+    "85dd584e00473f8b67a2334221bebba9": {
+      "eval": -1111,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:45.696043"
+    },
+    "d1fb284a428cb215e688cdb5a4cbeded": {
+      "eval": -795,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:46.585789"
+    },
+    "90478b945000f6a967e4140acf7b06e2": {
+      "eval": -757,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:47.044837"
+    },
+    "e10f0c7b9ba7a8e9a8f0b6c21a55d826": {
+      "eval": -760,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:47.507961"
+    },
+    "c043c4fe3852d40b4ad56ca5a92bc8ee": {
+      "eval": -1669,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:47.510369"
+    },
+    "7e5bbeb0cba381286230e84552730528": {
+      "eval": -556,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:47.512629"
+    },
+    "3290eb5ffb7eaa9ede395734f8609f01": {
+      "eval": -2787,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:47.514147"
+    },
+    "31a07b5f1f459a9d18decedafe094dc1": {
+      "eval": -1361,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:47.516791"
+    },
+    "86141d38b955737e76a9be45105792aa": {
+      "eval": -3592,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:47.522203"
+    },
+    "9d618be0181da0d7d89f66200bded416": {
+      "eval": -2991,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:47.524007"
+    },
+    "966e144e4fb8d998957eb9cc44d8272d": {
+      "eval": -715,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:55.362237"
+    },
+    "7ebc452a7a49536aa5795ad209baf81b": {
+      "eval": -573,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:55.653224"
+    },
+    "5db55642bdd80500ba51a362f4441dda": {
+      "eval": -805,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:56.119104"
+    },
+    "9d039f665959018692d14b2e2f6824a7": {
+      "eval": -1810,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:56.121014"
+    },
+    "46e9dbf3af9ab82f579a87b8bbe2566a": {
+      "eval": -1257,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:56.122774"
+    },
+    "e766c121e337b11530db2950e9aadfdd": {
+      "eval": -1344,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:56.124652"
+    },
+    "ae06a0a43fca62539714903a329d942b": {
+      "eval": -1461,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:56.126281"
+    },
+    "fddd97ac19890030c7d0cc53a28b0c19": {
+      "eval": -429,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:56.127874"
+    },
+    "a8d7537da561d727cf0817710924e847": {
+      "eval": -2495,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:56.128802"
+    },
+    "1a4bd236f3a53194e474dc812ccf8b25": {
+      "eval": -371,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:56.716188"
+    },
+    "ef9be28f5a0f6fd21907b84749bc417a": {
+      "eval": -1569,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:56.718015"
+    },
+    "b816e363f6a4bb4e1788349c6de7f4a7": {
+      "eval": -772,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:57.661707"
+    },
+    "e3459cc374601dc0e1ec5414975b413a": {
+      "eval": 314,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:58.080857"
+    },
+    "8d73dd46c71dcd7a10d3b93d6726cdaa": {
+      "eval": -1612,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:58.083203"
+    },
+    "a364aa4607f7bd43a77dd91c2ea5afe1": {
+      "eval": -1139,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:58.085332"
+    },
+    "477e169e7737fa9c2baa7c8d6094d4f8": {
+      "eval": -1158,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:58.087774"
+    },
+    "b7d054dcdde02c2ef575d30a3f5cf874": {
+      "eval": -234,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:58.089842"
+    },
+    "014ddd6d9c0d5aee5288d4ab63f6054d": {
+      "eval": -1560,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:58.091128"
+    },
+    "92759bb89c7569f8f194f02269601ab1": {
+      "eval": -1087,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:58.093166"
+    },
+    "97f1ead96f4b44c2669e1d390930c254": {
+      "eval": -1106,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:58.095281"
+    },
+    "6d66bf78d3ff6d71c177195bc5a827d0": {
+      "eval": -1069,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:58.507365"
+    },
+    "412005be5a2ba3f9f98ba7b4224ca32d": {
+      "eval": -956,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:59.228142"
+    },
+    "f5853e52a37d52322ed8db50ba4662b7": {
+      "eval": -1344,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:59.514046"
+    },
+    "187646630bdf5d35fbb2c4d0cfd743aa": {
+      "eval": -414,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:59.515909"
+    },
+    "528b348b3d60431edbb7bdde19e5bce2": {
+      "eval": -453,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:04:59.517525"
+    },
+    "8ae15da863f3d80115d6c1fd44ccd51d": {
+      "eval": -1626,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:00.192758"
+    },
+    "18c7e56965b4fb3c1e38df35080e5e29": {
+      "eval": -704,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:00.194673"
+    },
+    "0674c1407157a106dd7caf59b281707c": {
+      "eval": -685,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:00.196732"
+    },
+    "0d8e1df145902c4c9e157bc0b9500216": {
+      "eval": -641,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:00.198009"
+    },
+    "834e103217ce0dc190af95930d9c2b26": {
+      "eval": -34,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:00.863557"
+    },
+    "102ff735ecbaf32c855a2ca46c45ee15": {
+      "eval": -630,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:11.466696"
+    },
+    "cc545d1eaa1905892cc45addd5bf5815": {
+      "eval": -642,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:11.911217"
+    },
+    "29c437545efa7b398d330a74feac66da": {
+      "eval": -761,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:12.317040"
+    },
+    "aba040d71d452d3e6284fdee9df18c97": {
+      "eval": 273,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:12.319448"
+    },
+    "a63638f5a9146e87aecd20e0a11733d7": {
+      "eval": -406,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:12.321290"
+    },
+    "730f05fea3a45395d5f4fc2155b4f547": {
+      "eval": -748,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:12.810061"
+    },
+    "3ffa27b23e889c89889c7de180db4501": {
+      "eval": -531,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:13.295633"
+    },
+    "ed77796ca4655bec492eda78f271379d": {
+      "eval": -572,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:13.760096"
+    },
+    "e78fb11be188b15576a51f8e1c1e3e21": {
+      "eval": 776,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:14.244641"
+    },
+    "66878751f1cd65458a93476b6955025e": {
+      "eval": -190,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:14.547454"
+    },
+    "6adfa5665778a3b4079933e4792fe391": {
+      "eval": -1288,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:14.549413"
+    },
+    "0b71ed2ad9dc6ba27926eebfc8734c8a": {
+      "eval": 347,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:15.665361"
+    },
+    "dee10f7a5f4743263755209a33c79f98": {
+      "eval": -271,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:15.667407"
+    },
+    "3d062f094bc803bf0ba7462331958dfe": {
+      "eval": -581,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:16.631365"
+    },
+    "1ebbde6becfda5a5b9e929e694408589": {
+      "eval": -1521,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:16.634018"
+    },
+    "6bd609f10b3f03f38d9f575b16fcd401": {
+      "eval": -116,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:29.037586"
+    },
+    "bf46f7b170a38d2da272b1d4977237b6": {
+      "eval": -105,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:29.598769"
+    },
+    "9e70ce99290a50725384882de5641bed": {
+      "eval": -120,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:29.949677"
+    },
+    "1343ba9945fcb39814b6dcc6bb5933aa": {
+      "eval": -29,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:30.292553"
+    },
+    "2e061f5884c83d77bbb440410b8fa8a6": {
+      "eval": -26,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:30.621763"
+    },
+    "ad438e215bac970060cd9c71c77be265": {
+      "eval": 6,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:30.949733"
+    },
+    "f6deef20f6e6b99c7d6bc7b6ee164867": {
+      "eval": -1065,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:31.287296"
+    },
+    "c61a564d202917ff393262c9b68d3387": {
+      "eval": -1011,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:31.676634"
+    },
+    "d62e4a00ac9645ef7359e94ede7f44e8": {
+      "eval": -249,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:32.409443"
+    },
+    "ab5182eb07df11faee85851d99911823": {
+      "eval": -1246,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:32.795042"
+    },
+    "4be2b360d598e9a5706a0c988f2324ea": {
+      "eval": -86,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:33.478450"
+    },
+    "bc1756a131a3fa6234f17e1fec1dd324": {
+      "eval": -1103,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:33.480679"
+    },
+    "5e7c16965501bc5255fb2b748763ec70": {
+      "eval": 349,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:33.481959"
+    },
+    "83bf898e1f5159a425688201c2b0869b": {
+      "eval": -271,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:33.483335"
+    },
+    "cac766e0ecb54631c66b641468d6cf3a": {
+      "eval": -1258,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:33.945510"
+    },
+    "603939bd8e57c2230ded5f7428d8668c": {
+      "eval": -2558,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:33.947352"
+    },
+    "14d0d9cdb32e9996f29e2a7a10e6050e": {
+      "eval": -1124,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:34.390297"
+    },
+    "56a183d6f5c33db131c949b8404fd1bb": {
+      "eval": -245,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:48.629131"
+    },
+    "9826e1218d15a106e23edf6d414bc1e3": {
+      "eval": -247,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:49.031351"
+    },
+    "225601209ebeab456b11ab649e1267e2": {
+      "eval": -157,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:49.437775"
+    },
+    "5a81db64ea7e7d3db998c909394b83b9": {
+      "eval": -147,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:49.903900"
+    },
+    "898164d995923f6899af97c5aca9083e": {
+      "eval": -130,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:50.316545"
+    },
+    "a2d3b543751bf4c0b25081d4d982f64d": {
+      "eval": -112,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:50.980178"
+    },
+    "07a6deac42f9ab8b9791101606e46683": {
+      "eval": -177,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:51.341632"
+    },
+    "dbd31910eb6254b6db6ce7f62947ed3f": {
+      "eval": -892,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:51.774339"
+    },
+    "0af171116781f74cbbef502453fbd72b": {
+      "eval": -271,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:52.465444"
+    },
+    "3fa4726a61230479cc666b350471c3c1": {
+      "eval": 758,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:53.250695"
+    },
+    "ed6b8d289a669307055cac0a1bb7bf5b": {
+      "eval": -355,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:53.853391"
+    },
+    "78a28b19efd67935d4c994f5cb3136fe": {
+      "eval": -411,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:54.277686"
+    },
+    "307c188d2a9ab1978c96534b51ed19e5": {
+      "eval": -270,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:54.708269"
+    },
+    "cba9a3771e050c65d18cc917baba0498": {
+      "eval": -370,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:05:55.005834"
+    },
+    "68a24bf9b86f731fac1ae4f9ea0d1f96": {
+      "eval": -138,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:10.264504"
+    },
+    "1b8bc97e66bbcc13e944a511617ede7f": {
+      "eval": -431,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:10.627373"
+    },
+    "55a426bd87567fd6251cd833d191ab9e": {
+      "eval": 560,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:10.629656"
+    },
+    "f2f7a1636920e9c4add427253b6f89d3": {
+      "eval": 245,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:10.631478"
+    },
+    "e9ee0727d76bbc181be9f9098cbffe26": {
+      "eval": -281,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:11.639838"
+    },
+    "e1cdfb6d2b675002b00b95f1a9972f30": {
+      "eval": -242,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:12.337712"
+    },
+    "be2ff31cc8da85dd500b2512c787433e": {
+      "eval": -158,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:13.296519"
+    },
+    "f7c38198c19e75e60732b5b18174c80b": {
+      "eval": -179,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:15.145061"
+    },
+    "2cb7973260cf71c404b11cfcf648873c": {
+      "eval": -213,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:15.542032"
+    },
+    "4ea6d5c5be212137513605878cd44012": {
+      "eval": -1531,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:23.148642"
+    },
+    "6ba3ac16cadef39ebe7a129e6e4d9ea3": {
+      "eval": -1189,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:23.507527"
+    },
+    "5760f039ba55cfc30da12c1eca11a577": {
+      "eval": -1276,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:23.842639"
+    },
+    "a1b20961c425363c0c058237dd966df3": {
+      "eval": -1315,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:24.150116"
+    },
+    "b7d340f8df237497bc476106076ae4a3": {
+      "eval": -1164,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:24.447601"
+    },
+    "3f79b134b2e42706502446495800084b": {
+      "eval": -1230,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.650350"
+    },
+    "2387cc10f9b26f0209bf76d3223c2791": {
+      "eval": -1748,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.652573"
+    },
+    "e0c885b2495e147aade469fbd3b3ab91": {
+      "eval": -618,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.654410"
+    },
+    "f9a7878ebe2c007547963b85bc277f03": {
+      "eval": -930,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.656034"
+    },
+    "c2cbeda74faa3c8a79418456cec8368e": {
+      "eval": -751,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.657222"
+    },
+    "f1498d9cb39504bbe2b1115a7521fedf": {
+      "eval": -1366,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.658515"
+    },
+    "0aaed504f010da679bf212a0b1decf63": {
+      "eval": -995,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.660380"
+    },
+    "be428deee369e92a031244f000a36a03": {
+      "eval": -1174,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.662507"
+    },
+    "3bc7b8e281b2f3cd119fa0feb3585363": {
+      "eval": -1409,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.663688"
+    },
+    "c648fee38a747c0d765523f359fee646": {
+      "eval": -428,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.665366"
+    },
+    "e8a663ce7d2e553f881161236babccb4": {
+      "eval": -740,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.667119"
+    },
+    "b666d441ffa7dbb3ca584a7dae55beff": {
+      "eval": -564,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:25.668276"
+    },
+    "6d518f3e5ac4c14fe91973f719e432dd": {
+      "eval": -1309,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:27.523227"
+    },
+    "d0ebecf9cc8ece6d2fee86390c68db0e": {
+      "eval": -1275,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:27.783970"
+    },
+    "3b681ce9749a6de45724bdbb986ccfbf": {
+      "eval": -1399,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:28.760586"
+    },
+    "74e6a0da41eddea7ca7057a811fb33f4": {
+      "eval": -450,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:29.002654"
+    },
+    "80d78225e9e709bad837f575243a772d": {
+      "eval": -1102,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:29.242011"
+    },
+    "c6a83b224e9638b1b81fb9b1eb4604cb": {
+      "eval": -1261,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:29.517621"
+    },
+    "53de8a8e1aeb560dd3f26ad682f78e55": {
+      "eval": -1704,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:35.034175"
+    },
+    "19130145a60aad296cb2d808dd861365": {
+      "eval": -589,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:35.036020"
+    },
+    "1f57ee4fc92d219cd854be4efd27c031": {
+      "eval": -898,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:35.037770"
+    },
+    "329234cb3932208907501f409ef51d6d": {
+      "eval": -668,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:35.038937"
+    },
+    "30703055c1f14a37d3d6e49d6c451716": {
+      "eval": -794,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:35.040160"
+    },
+    "41d78e893ecb6b218f27bbbd296700b4": {
+      "eval": -1656,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:35.570707"
+    },
+    "5c421b176312811474ae2aad521a6dfe": {
+      "eval": -519,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:35.572563"
+    },
+    "8b341015ead6e70b863cb9851848053f": {
+      "eval": -1554,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:36.086296"
+    },
+    "87ad5ed926b7ff1a57cf22c6b34a880e": {
+      "eval": -1399,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:36.551000"
+    },
+    "bc18c0f8efba8edd82752f6f6d98771e": {
+      "eval": -1905,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:36.553205"
+    },
+    "da076253e1dd4e63a1f73790e82fde1a": {
+      "eval": -787,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:36.995711"
+    },
+    "9f17fef38d8c719a34998e91566d5e5c": {
+      "eval": -162,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:37.239810"
+    },
+    "0a825b81fff8d043859784daf182e87d": {
+      "eval": -451,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:37.467409"
+    },
+    "876449e0cc853d2b5b74c7dae309daff": {
+      "eval": -1062,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:37.704433"
+    },
+    "21e1e72450b47cf8eb080ce1541ed105": {
+      "eval": -1002,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:38.062958"
+    },
+    "7ddb4094de1fb7cdb0a43ac686c49b96": {
+      "eval": -630,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:38.064823"
+    },
+    "ce45475bf01be6d1b8af67ed47eb73a5": {
+      "eval": -756,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:38.066342"
+    },
+    "550c9edb1c59333db45fce4267422ae8": {
+      "eval": -670,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:38.559647"
+    },
+    "8a829195bc4affe55256f764d38c94ed": {
+      "eval": -579,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:38.827549"
+    },
+    "302cacee9a2d296251a1a90106392a3b": {
+      "eval": -286,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:39.093771"
+    },
+    "a6872d84948cf7817f85458987f258ba": {
+      "eval": -852,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:39.625304"
+    },
+    "c2f5cd93e7b7775b8b879c00a69baba8": {
+      "eval": -826,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:40.119825"
+    },
+    "6326d328f8d270e2d7d521cb4f83f9fd": {
+      "eval": -933,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:40.301751"
+    },
+    "7a01f6ab78057e31ba943996712ce46e": {
+      "eval": -524,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:40.525072"
+    },
+    "e53c6c16707546ae746d2e282f4f8cef": {
+      "eval": -667,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:40.812974"
+    },
+    "71991c2ec4db53830dcfab515665cc75": {
+      "eval": -1223,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:41.318876"
+    },
+    "e930f5577c4dafeee33095b10429bd87": {
+      "eval": -2876,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:52.500165"
+    },
+    "57549a34616419da405bdc78f9f6cdbd": {
+      "eval": -1864,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:52.802653"
+    },
+    "cc6753f44a1ee3f500f6d8781550c8c7": {
+      "eval": -1316,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:53.055730"
+    },
+    "0251b15569fa53cdc03ecb5de23d238b": {
+      "eval": -1482,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:53.284249"
+    },
+    "70b336deb7446476d02993e5cd53e078": {
+      "eval": -1518,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:53.557781"
+    },
+    "f56c120243a4252783a4a84109c94a85": {
+      "eval": -2036,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:53.817789"
+    },
+    "6fca1cfffa19b4b1de325ed0f6f7078e": {
+      "eval": -953,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:54.026678"
+    },
+    "47110073064c5794452202a257bec7ab": {
+      "eval": -1345,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:54.301928"
+    },
+    "2be3a08a9790c81b01206698844906d8": {
+      "eval": -1129,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:54.597882"
+    },
+    "dd0ded2b7c1808c383681f0c6882f530": {
+      "eval": -769,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:54.817045"
+    },
+    "3328fc4881cebbce046065b8c13a536b": {
+      "eval": -975,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:55.089186"
+    },
+    "a7a11dbe7fa5121e3915838870aad188": {
+      "eval": -939,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:55.354010"
+    },
+    "1c9b308d6af58e29e13604593b8eaa81": {
+      "eval": 45,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:55.355866"
+    },
+    "3d0002532a0652c78550389e2917d5c4": {
+      "eval": -1261,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:55.658722"
+    },
+    "d7e280116f004d602558e1135477629a": {
+      "eval": -179,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:55.886708"
+    },
+    "2d5a44bbdb23655b60fbee76e9efb359": {
+      "eval": -305,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:56.112233"
+    },
+    "5ef489dcfb609fe9b2a26297c2bb193e": {
+      "eval": -1326,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:56.700100"
+    },
+    "2d5019e3b5ee7110b0d58cce50db206a": {
+      "eval": -1008,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:56.942696"
+    },
+    "24121d816ea329ad613ce416958cb2f0": {
+      "eval": -1877,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:57.230888"
+    },
+    "8d17fe27926a463f738b0b000702c9d9": {
+      "eval": -897,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:57.503607"
+    },
+    "a430e8c3078675697d3e404e057cdcc6": {
+      "eval": -2096,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:57.776402"
+    },
+    "e42747c25bef38e5b029ea2eeb4f623d": {
+      "eval": -208,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:57.778023"
+    },
+    "6f92f0b5486856029faf729a136d3415": {
+      "eval": -1220,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:58.047519"
+    },
+    "b94673396dd0a6a22266e81f74dea447": {
+      "eval": -1040,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:58.338646"
+    },
+    "2842077d562971ec2da20b6879042ced": {
+      "eval": -985,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:58.571477"
+    },
+    "aa46d736c33f74d060736e7ac7234ad3": {
+      "eval": -1996,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:58.857740"
+    },
+    "a04cf659acf39951bbf45ef5fcff23e2": {
+      "eval": -824,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:59.128692"
+    },
+    "a454d48d89b3107f19313ca7057d8081": {
+      "eval": -1461,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:06:59.382216"
+    },
+    "60888735afbc5fc48cad6db714bc45bd": {
+      "eval": -1280,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:15.233550"
+    },
+    "f311ac07ab6ea28d4ce8bd0862818265": {
+      "eval": -1150,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:15.457065"
+    },
+    "7745c2d485a48ca972a37f1084b04690": {
+      "eval": -581,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:15.616650"
+    },
+    "6d73ec4cb7b860a1568c4a460fd6203c": {
+      "eval": -1058,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:15.618423"
+    },
+    "f2ded989a4b8d449a58cce2f4dd29ee6": {
+      "eval": -515,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:15.619974"
+    },
+    "f26fd0a63ee9d5ab6d255fcc95dc50b7": {
+      "eval": -879,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:15.754350"
+    },
+    "96cee76271d68ea526106c8b6b15f2c3": {
+      "eval": -1315,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:15.756480"
+    },
+    "92ab2b93c27ebe1e365131e50aa92c40": {
+      "eval": -1038,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:15.757711"
+    },
+    "fbab57747ff0ac046aa2a185493fbfb1": {
+      "eval": -2124,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:15.758581"
+    },
+    "0f963c70c816d654a72aaef9bd9714bc": {
+      "eval": -760,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:16.237042"
+    },
+    "5671c181e1cc8beca00b655ea4592809": {
+      "eval": -777,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:16.474715"
+    },
+    "91a1bddcb4e6e7d457fd6ba4fb5dae0c": {
+      "eval": -952,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:16.753214"
+    },
+    "c08a42f426e82f4e7e270eda65972fae": {
+      "eval": -2548,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:17.035637"
+    },
+    "6e7d70328d18a11e15362e2314ea9ac7": {
+      "eval": -590,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:17.037142"
+    },
+    "09199e608a2a7799ded1a793772199cc": {
+      "eval": -954,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:17.405004"
+    },
+    "db9c1be67e4b823f89297708247791dd": {
+      "eval": -889,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:17.879068"
+    },
+    "626aa5ff20a3709929ce4fd19b7acf62": {
+      "eval": -1087,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:18.173964"
+    },
+    "f80ff7a4449769d452692b82539d72d4": {
+      "eval": -1596,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:18.454241"
+    },
+    "9cd035656f69f184a4fa8c8a18dc6e9e": {
+      "eval": -1228,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:18.979776"
+    },
+    "2180c074d114c42cd9ccfda9ab0e3a7c": {
+      "eval": -835,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:19.250859"
+    },
+    "0634d2b53fbe86fe8eac03b7684a8fb0": {
+      "eval": -871,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:19.547554"
+    },
+    "e8e0dd6d112fc2eccaf4ecdd604b7d08": {
+      "eval": -254,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:19.809528"
+    },
+    "970289f2e0aadaeca7770d04e4f80b60": {
+      "eval": -176,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:20.359695"
+    },
+    "eb8acaead1073b50e35959b9804cff56": {
+      "eval": -768,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:20.629533"
+    },
+    "70bb7d0acccaed8fa16e20e09cafa281": {
+      "eval": -672,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:20.917750"
+    },
+    "8d0174df228708593f77d7181fccc9d1": {
+      "eval": -789,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:21.699237"
+    },
+    "c9e6a49a727aad9c48fef0a94c62d45e": {
+      "eval": -1583,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:29.035402"
+    },
+    "e98f0b1eb7e66a2ddaf7d5ed2bc8314d": {
+      "eval": -1479,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:29.375848"
+    },
+    "f897a046c1980b705c608f55c257b2ba": {
+      "eval": -1767,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:29.744775"
+    },
+    "6c731ea5aede279a2e20a795908d9669": {
+      "eval": -1352,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:30.067000"
+    },
+    "f14ef2960e1b502fad23305362d34bec": {
+      "eval": -1635,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:32.145680"
+    },
+    "90b99a4cba62131b325a42cebcaf659f": {
+      "eval": -1978,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:32.707804"
+    },
+    "e2c9f28a951df95d8890d1e69e7fc205": {
+      "eval": -1857,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.121117"
+    },
+    "0d6ae61083f32d8f4bccb87868ed75a8": {
+      "eval": -3121,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.122705"
+    },
+    "5bba789f353eb1e71dd0e0a40e9a03a2": {
+      "eval": -2041,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.483688"
+    },
+    "2ccc3139e9c0b2fbe29c95e890026e71": {
+      "eval": -3626,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.485599"
+    },
+    "89be15845ba2e5cb86f4985868cf2147": {
+      "eval": -2033,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.486926"
+    },
+    "1e870ac29a270eb0ec81bead17fafe1d": {
+      "eval": -2316,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.488831"
+    },
+    "f422e7633cccb93b960afa590ca11108": {
+      "eval": -1286,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.490284"
+    },
+    "54e8021c7138868d092cd72d19652033": {
+      "eval": -2170,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.491181"
+    },
+    "d09c2dd0836a3b2a225d4609727d4c05": {
+      "eval": -1996,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.492719"
+    },
+    "8ece1da500b689e9b41ac4fa862eb20a": {
+      "eval": -2212,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.493767"
+    },
+    "78bd3970b96d553f21400573f39d0842": {
+      "eval": -1840,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.495202"
+    },
+    "fea5f608bf22b0fa5193d23adf646d14": {
+      "eval": -3336,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.496943"
+    },
+    "c1301aa7de387625939c4fad7896db16": {
+      "eval": -2038,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.498349"
+    },
+    "0bdb236074de0d32ac45a6c8addc3c61": {
+      "eval": -3414,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.500503"
+    },
+    "9a6a06139adf85c37823cd4073b949fe": {
+      "eval": -2237,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.502431"
+    },
+    "5c6ade9ce3111e3ed4f593fea3243304": {
+      "eval": -1770,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.503989"
+    },
+    "cf71734cc9f12cb93bb4f852e5eac566": {
+      "eval": -3266,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.506187"
+    },
+    "9237876a8749f268346170e568b131af": {
+      "eval": -1946,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.507767"
+    },
+    "540db098ee90552fa342c5ce6ba392b0": {
+      "eval": -3442,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:33.509746"
+    },
+    "ec180ad014539bcc3ebdce95190d253f": {
+      "eval": -1238,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:34.043661"
+    },
+    "2b5941178d7f1689f7f4c46263386933": {
+      "eval": -1221,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:34.339842"
+    },
+    "062fac8900d97fcfe90e84b98457a699": {
+      "eval": -1118,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:41.657667"
+    },
+    "5bd778d0e042764a1ca4ca53bf5f59bb": {
+      "eval": -2317,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:42.052307"
+    },
+    "e6d57ba75f0f96fde98d407d6257939b": {
+      "eval": -264.7,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:42.055739"
+    },
+    "84a9167fdca2ce338e679f12b46d8da8": {
+      "eval": -344,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:42.056849"
+    },
+    "0bfbdcc32c0fa184b6cd35a486f3f8da": {
+      "eval": -411,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:42.058049"
+    },
+    "0e50b4d9d5a8f581723a86c77f6aae1a": {
+      "eval": -1405,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:42.392849"
+    },
+    "768800a0eb809c743e4dda638e6cd8a2": {
+      "eval": -177.7,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:42.396408"
+    },
+    "8e5c7d88479b6618e5a80c5f973b05ed": {
+      "eval": -324,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:42.397615"
+    },
+    "5bc597d635f2a864c2e543f182c012dd": {
+      "eval": -1072,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:42.763436"
+    },
+    "52f6f512b5d8d5b0d1fe7138bb367401": {
+      "eval": -1485,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:43.265409"
+    },
+    "5113b0cc84a5dfd869e63125ce9203b9": {
+      "eval": -1714,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:43.267521"
+    },
+    "4c2691c64cb088018755d112ce2c3a21": {
+      "eval": -1500.6999999999998,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:43.977434"
+    },
+    "976f4ecc75ec610afd49238a7ff7fd8a": {
+      "eval": -2887,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:43.972311"
+    },
+    "21f8e2d15c0cd6f192be5eb002e05b08": {
+      "eval": -851.7,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:43.975254"
+    },
+    "b6d53792e794f767152a6675e65cf2a1": {
+      "eval": -1078,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:43.976310"
+    },
+    "948a393e9f027ca258694c11ab82b923": {
+      "eval": -1647,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:43.978685"
+    },
+    "c3f0d8aed52cbb252911ed263d94326d": {
+      "eval": -1148,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:44.653300"
+    },
+    "fa1cf375445b5b6ca999695bc06131c7": {
+      "eval": -1504,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:44.655948"
+    },
+    "9a652ea33af82f1617ebcad32435a862": {
+      "eval": -1231.7,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:45.758808"
+    },
+    "08f33d9a0a248e045107e32b013a8a90": {
+      "eval": -1347,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:45.760058"
+    },
+    "b68760d008a7a0e90e90b70f23f88529": {
+      "eval": -1091,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:45.761939"
+    },
+    "21a55a3ff51cbc88558204fae2458387": {
+      "eval": -1528,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:45.763902"
+    },
+    "e1d3d60d43c44103fb5aa7e20b7177a7": {
+      "eval": -1489,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:46.240160"
+    },
+    "c0f065a645ea72cfa53dc75318770398": {
+      "eval": -1154.6999999999998,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:46.777751"
+    },
+    "f26d15010d9600c715c346a110e31124": {
+      "eval": -1344,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:46.778966"
+    },
+    "cc58c70328729d774310bb31895e5959": {
+      "eval": -1151,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:46.780759"
+    },
+    "91576f47f07d6d9d1ac76e662138006c": {
+      "eval": -1674,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:46.782715"
+    },
+    "36c3be13fd74daa9e821e77e5fe9e0e6": {
+      "eval": -1453.6999999999998,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:47.224832"
+    },
+    "5b4a69e1b682bbf437ba9439a6bf178b": {
+      "eval": -1968,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:47.208735"
+    },
+    "715046ef1c0ca199f3b37bd5c3e97c4f": {
+      "eval": -926.7,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:47.212087"
+    },
+    "d2b9506484e96d76130342de972b8bd6": {
+      "eval": -1147,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:47.213206"
+    },
+    "97904298b8d54e65446772e456be7cb5": {
+      "eval": -2869,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:47.214029"
+    },
+    "3d8e5aa7795f8e043d952305d80a6537": {
+      "eval": -782.6999999999999,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:47.217110"
+    },
+    "c94b40d0aadfbc81dec4e51dbec1c778": {
+      "eval": -1126,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:47.218524"
+    },
+    "e7642083e6fe5110048946202c671f33": {
+      "eval": -2756,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:47.219411"
+    },
+    "0f508cc7e195a625f6741522102f78f8": {
+      "eval": -614.6999999999999,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:47.222557"
+    },
+    "7ce96a6afe5bfc2989e1535c100e1d7a": {
+      "eval": -784,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:47.223703"
+    },
+    "6b27f6331c93e3084deeb8a15a52ac8f": {
+      "eval": -1797,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:47.226088"
+    },
+    "9577ee8379963a140704314a0919d5e2": {
+      "eval": -579.6999999999999,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:47.231073"
+    },
+    "b5ca1486defee8c258464f062cb94004": {
+      "eval": -933,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:47.229949"
+    },
+    "03172fe47fe5ae825db7883073a159ad": {
+      "eval": -1499,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:47.232334"
+    },
+    "5039d4ce53010e99ada0f2282677ea11": {
+      "eval": -513.6999999999999,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:07:47.236176"
+    },
+    "9dd50569f1e7fc0211a23f2bbcfd04bc": {
+      "eval": -974,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:47.237341"
+    },
+    "bcbcd1c23915b9599e3f90036d6da7f8": {
+      "eval": -1173,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:50.987769"
+    },
+    "659d5fb410fd2f09153cf7987ddc3d17": {
+      "eval": -1161,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:51.442298"
+    },
+    "441d593f5c81affcc2de737755cc592b": {
+      "eval": -1218,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:51.767891"
+    },
+    "a32c5106456ff27545608173e0a8168c": {
+      "eval": -1199,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:52.079559"
+    },
+    "e56887bd3ce1bb810bbb9bb4d369166e": {
+      "eval": -1324,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:52.372273"
+    },
+    "784963ae455ff86dd674ddd8b6a2891e": {
+      "eval": -1488,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:52.673076"
+    },
+    "f92baf6d63e3bc72c139734dd0982ff8": {
+      "eval": -1521,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:53.562879"
+    },
+    "868aee02263256b6406326a190dff648": {
+      "eval": -1287,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:53.952022"
+    },
+    "110a27af5e2ec61220b6060014335c59": {
+      "eval": -1501,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:55.046479"
+    },
+    "f8f8c648d60a271d150da92b4ea14f14": {
+      "eval": -224,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:56.125924"
+    },
+    "6e77025e6416e41daacd7f9033bdfeac": {
+      "eval": -1226,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:56.644301"
+    },
+    "efb2bec28dbca5135f49bb7fdfa19484": {
+      "eval": -943,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:56.878082"
+    },
+    "cc56b505fd53dd72a0fdeb5931919c5c": {
+      "eval": -998,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:07:57.392233"
+    },
+    "98ccfd6550d59e6dcd42e333f59d9f68": {
+      "eval": -1222,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:02.612823"
+    },
+    "a4897acae9a4bf1a7708e802c9d9c1d7": {
+      "eval": -1327,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:02.846821"
+    },
+    "f8a1d519c7f421367a31de87442f61fa": {
+      "eval": -1331,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:03.102614"
+    },
+    "7f041bd67f6c6be8a51511ff0339570c": {
+      "eval": -1172,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:04.091422"
+    },
+    "1bebe07f5c1d32ec6fe62f1d837fc910": {
+      "eval": -1904,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:04.093834"
+    },
+    "f0965c487b2c4f38896ed0f426154861": {
+      "eval": -1531,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:04.095166"
+    },
+    "d5582bab3c0e95fbae1e82a15691c17c": {
+      "eval": -1441,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:04.096562"
+    },
+    "a1a1cb6965f2c42bc519bea4b3b1e4f9": {
+      "eval": -1432,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:04.098010"
+    },
+    "8cdf0ea5a073e9119e607fd9e992714a": {
+      "eval": -1866,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:04.597971"
+    },
+    "2719083fff9da5351728c8423118e02b": {
+      "eval": -2248,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:04.599879"
+    },
+    "44bc7310828fa0b447f777cb9c1107fa": {
+      "eval": -1632,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:04.859943"
+    },
+    "3570492ce0324b2b5695e06aa6f7180c": {
+      "eval": -2322,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:04.862114"
+    },
+    "e92f6bf329261ee10313f15892027348": {
+      "eval": -2130,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:04.863664"
+    },
+    "96119f97fb4063529b795e686ea4addf": {
+      "eval": -2083,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:05.636173"
+    },
+    "e6b332a6a4c6cf4bc2d8613767e44511": {
+      "eval": -1298,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:05.902570"
+    },
+    "6fbb7fb8fe3d77e1c4b82386713a5037": {
+      "eval": -1374,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:05.904622"
+    },
+    "e28878b4fad400b386a029fdba1af210": {
+      "eval": -1538,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:05.905805"
+    },
+    "87349fc5eb0b0ffe5f5b08f0e97240a7": {
+      "eval": -507,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:06.431368"
+    },
+    "5dfefe40643e93640adead08144da82d": {
+      "eval": -1707,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:06.628233"
+    },
+    "2386a430ece41ad8ed1d879f34d828d2": {
+      "eval": -1256,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:07.116386"
+    },
+    "213cc2299a5855a11be15eebb1d92908": {
+      "eval": -731,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:07.425089"
+    },
+    "c75f4763aad4db04495541c39eb43397": {
+      "eval": -1186,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:08.106700"
+    },
+    "5b2608778ae974c3064ef56144307f9a": {
+      "eval": -1163,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:08.390965"
+    },
+    "0ed2b5251bc8010395218f711fc4e9d5": {
+      "eval": -1785,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:08.671316"
+    },
+    "9ebc67cfcf009894ef0c771b9a1fffe0": {
+      "eval": -1739,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:08.953800"
+    },
+    "afdedaf24b229f9b1d6e0d50345397bf": {
+      "eval": -265,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:09.194807"
+    },
+    "03c1b8a08031e275c59dc91804b2071d": {
+      "eval": -2164,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:15.380801"
+    },
+    "4cf258b885469fc41ed74ee31eabdd75": {
+      "eval": -1199,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:15.734488"
+    },
+    "65757f66a7b374b207bbb97d7fe9876e": {
+      "eval": -2041,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:16.280646"
+    },
+    "129f96da1a5755a5da6745dca3dbbc2b": {
+      "eval": -1634,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:16.489689"
+    },
+    "bc9cc7b7d485f9273d4526267b17e3a4": {
+      "eval": -1970,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:16.725985"
+    },
+    "7bf68b5502752827f97e5eeadc501ac1": {
+      "eval": -1762,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:16.981167"
+    },
+    "b1e81761519ed67e76f5b848929ff200": {
+      "eval": -1902,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:17.498201"
+    },
+    "7891587268bce905f72318d060f420e2": {
+      "eval": -1904,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:17.762125"
+    },
+    "c5e03ff169a49be44aeead3ad300bf5b": {
+      "eval": -1695,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:18.261415"
+    },
+    "8a2553dd7045aad345fcbca91711661d": {
+      "eval": -1866,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:18.776407"
+    },
+    "6ede987bfd00e1294afae9ffc7b01e4d": {
+      "eval": -2369,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:19.579203"
+    },
+    "7d63b86fbf176cc1623d1024299fe0be": {
+      "eval": -1753,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:20.448514"
+    },
+    "5bd6708f51fc3863365a5308ca388be6": {
+      "eval": -3224,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:20.450161"
+    },
+    "71cd0be89f8033e636aaaeb9a6e288a4": {
+      "eval": -2190,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:20.451640"
+    },
+    "53f2b1451873cd5e99c15b372492dc3f": {
+      "eval": -3016,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:20.452404"
+    },
+    "8c0531ba2c34c5eea86110fe84d9d697": {
+      "eval": -2007,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:20.453509"
+    },
+    "0562e0d9b56784f5bcf31701742895b1": {
+      "eval": -1911,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:20.454729"
+    },
+    "d51733273651ad5059e71c712b422cb6": {
+      "eval": -1962,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.105419"
+    },
+    "5721488f6a847f9721347cfe34e38f2e": {
+      "eval": -2294,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.107415"
+    },
+    "9dc642dcd200bd72f9dd4c56bccb8f5b": {
+      "eval": -3121,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.108134"
+    },
+    "3ed309b4888b5adea7c5e202c314b9f6": {
+      "eval": -1136,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.109438"
+    },
+    "1b5b5e8caf4ef162649dee0cc1edc706": {
+      "eval": -2083,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.111379"
+    },
+    "69d5cbf522f1ca764313cd15ab38c022": {
+      "eval": -1791,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.240110"
+    },
+    "4a9f0337de74e9634e87b5c959114e12": {
+      "eval": -2959,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.241684"
+    },
+    "87bf2e6f14f58fc125297519803b07e7": {
+      "eval": -1909,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.242741"
+    },
+    "ce40f207664ca57fc57bcd1de278861b": {
+      "eval": -1257,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.449113"
+    },
+    "762e92b1e86414a34b9f26a7b130f1ae": {
+      "eval": -1561,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.450687"
+    },
+    "49faac72c21a7e39043649bf869a6274": {
+      "eval": -1564,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.451869"
+    },
+    "8c5f6ee60f48271218a8d82289e30bfe": {
+      "eval": -2561,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:21.954661"
+    },
+    "8b8e67d6561051ac39e59b9cd483dc83": {
+      "eval": -2182,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:30.616682"
+    },
+    "e2fe3f88b3ef59fb8300e5b00cb49ef7": {
+      "eval": -1799,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:30.859018"
+    },
+    "98f6b6d05e2097997b84f59ada5b5639": {
+      "eval": -1819,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:31.122207"
+    },
+    "f6dd7a960666ebf82b88d512259802d0": {
+      "eval": -1876,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:31.351922"
+    },
+    "124523512606978cca0093604a0b8cfb": {
+      "eval": -1631,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:31.586596"
+    },
+    "ff6b384216760bdcbab3ca405a591342": {
+      "eval": -1584,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:31.865112"
+    },
+    "c6261756aa8073fe304744dcc69088c3": {
+      "eval": -1832,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:32.116424"
+    },
+    "9ef5cf002f71fa185bad01226731b4f8": {
+      "eval": -1662,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:32.404061"
+    },
+    "59f99171d94b346e73014af0d4309afc": {
+      "eval": -1695,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:32.703562"
+    },
+    "d1f16589b6912e4d0f420a8fb64ae12e": {
+      "eval": -1846,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:32.965742"
+    },
+    "033be31ded75e968124cd18edfdd22c0": {
+      "eval": -1130,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:33.484871"
+    },
+    "bc6b2717cea3f2f15781d5dc4812ec3e": {
+      "eval": -2066,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:33.744981"
+    },
+    "3663a03388b0a3847b5ba2be84121337": {
+      "eval": -1812,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:34.000531"
+    },
+    "ed01ac99a9de84ce60421fb2f7942784": {
+      "eval": -1699,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:34.247889"
+    },
+    "0005810eb848875220ba5e9921575982": {
+      "eval": -1878,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:34.526502"
+    },
+    "ffa18a50fa911d799f206fa4d061a467": {
+      "eval": -1770,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:34.781965"
+    },
+    "a05449e0d18157501d42f5bc11f68bee": {
+      "eval": -2137,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:35.049486"
+    },
+    "9a4ac1260e4384d05e98b96cd12db1a1": {
+      "eval": -1786,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:35.516057"
+    },
+    "aa130681242f669621ddb67b1a321603": {
+      "eval": -2956,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:36.018879"
+    },
+    "2c5b6787b8c766804a7d52d3427570d8": {
+      "eval": -1673,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:36.267820"
+    },
+    "3f8674b77d08660d369207a2efd6c974": {
+      "eval": -2137,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:42.008422"
+    },
+    "34ab52b6716d4e7175eff2e1dd0b0078": {
+      "eval": -2190,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:43.518040"
+    },
+    "21e0fdd618423f020398fef9a746eb6a": {
+      "eval": -3621,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:43.519564"
+    },
+    "b17987cff4dade402c63b1fbb54e429b": {
+      "eval": -2190,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.237243"
+    },
+    "03e8772a037fecc24c2b04910dc88499": {
+      "eval": -2852,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.239241"
+    },
+    "0026090e3635ced4ed14f1194a0c2d26": {
+      "eval": -2562,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.240187"
+    },
+    "20f7c20853220dbed4abc896224411f6": {
+      "eval": -3340,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.240891"
+    },
+    "1e3a3771a058a23680e6d358f6252d48": {
+      "eval": -1451,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.242234"
+    },
+    "5fca9d11198e8fbbdcded73bc4e816f4": {
+      "eval": -1527,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.243918"
+    },
+    "7c4dec92253b6cfc603584e0103df614": {
+      "eval": -2601,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.244631"
+    },
+    "7f97bcf442e7e494d2d34e7fc86f29ae": {
+      "eval": -2272,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.245624"
+    },
+    "a3fdeb7b4b558d1f3084c82bd71799d7": {
+      "eval": -3337,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.246385"
+    },
+    "bb2817fb9945b44823c847ff7ee31ce0": {
+      "eval": -2543,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.558689"
+    },
+    "df37e2a7dea1ba26d107e83e8841690d": {
+      "eval": -781,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.733926"
+    },
+    "38237bc1078d837a8132625b9921b8a7": {
+      "eval": -1921,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:44.968930"
+    },
+    "4df7cbddd1cddc2c403ccaca92d60670": {
+      "eval": -1905,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:45.221974"
+    },
+    "5e4495faafd2a5e0ec0af36035f10b87": {
+      "eval": -1852,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:45.473653"
+    },
+    "75c28c4bcee62df3c332978396ff25a5": {
+      "eval": -3416,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:45.737173"
+    },
+    "e63779f8cb4fd0c389832119237fba89": {
+      "eval": -1278,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:45.981609"
+    },
+    "dd266af43ec3602b2695e4b96f067b43": {
+      "eval": -3033,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:46.208025"
+    },
+    "d4032dfba64009ee3fbfa7d0d93e5349": {
+      "eval": -1945,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:46.470859"
+    },
+    "1aaa6c5d91875986b5a382b457e11a07": {
+      "eval": -1998,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:46.741152"
+    },
+    "3e9221f7110b07e44250258ad7f4b8e5": {
+      "eval": -1762,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:47.008233"
+    },
+    "a76dfcbe856e7249d472481ab86ed76b": {
+      "eval": -3231,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:47.258026"
+    },
+    "bf14bc2326de80b1fb0b0705bdc4cc14": {
+      "eval": -3645,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:47.505754"
+    },
+    "ac63445c38e85c2ba40a0ff6abda6f2d": {
+      "eval": -1992,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:47.745356"
+    },
+    "059708482dfbf2cc647cd15aecbcfa4e": {
+      "eval": -1211,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:48.187211"
+    },
+    "729236bfe39a97ebb7b81adb4d2b3b72": {
+      "eval": -1934,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:48.430921"
+    },
+    "6d44d372500e3f43f20972508e613b2c": {
+      "eval": -2052,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:48.667829"
+    },
+    "ddf5cf3540e59f00e2eb01cec9a0d279": {
+      "eval": -2455,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:53.550136"
+    },
+    "b3e5d4005e38ffbd176b2e20aafb4ea0": {
+      "eval": -3443,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:53.551530"
+    },
+    "05173498f026391f7dde265caf6216c8": {
+      "eval": -2540,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:53.552891"
+    },
+    "703ad2ac2195e300a8db6f44afdbdbed": {
+      "eval": -2625,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:53.553924"
+    },
+    "57b888fcc8bf46b6287ffd89db8e039b": {
+      "eval": -2685,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:53.874225"
+    },
+    "8d128f2b96ff0f7265e95ad63c9e3d12": {
+      "eval": -1509,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:54.091980"
+    },
+    "4c87b3ed34543372614ed735360ef32a": {
+      "eval": -2633,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:54.313828"
+    },
+    "c9f48cd9f92beb28ada77d012cc2fe2a": {
+      "eval": -2492,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:54.518121"
+    },
+    "2ab2d7c74f7ace09cf185c758cf8234b": {
+      "eval": -2622,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:54.725742"
+    },
+    "7fe518494f80341669bc68aa2543bb8f": {
+      "eval": -2740,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:54.938269"
+    },
+    "777bd533ceec6df274fc80d3b142b026": {
+      "eval": -2083,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:55.649520"
+    },
+    "c245f995d6ea814c28828b6389b74368": {
+      "eval": -3150,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:55.651029"
+    },
+    "cd86c593aabe8de64f0691b75fed563a": {
+      "eval": -2227,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:55.652098"
+    },
+    "378ae1b84d1135b3ee645899eb475764": {
+      "eval": -3140,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:55.652821"
+    },
+    "ad2f539c513fcd5e98bcfe61d4946afa": {
+      "eval": -2535,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.290501"
+    },
+    "e1c5cd1dc744113e3299d4e107536d1a": {
+      "eval": -3449,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.291809"
+    },
+    "0bbafdf20126baee26ca53e5b9993f5a": {
+      "eval": -2519,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.292697"
+    },
+    "22710ad3449a47e62b5343b17b0b2800": {
+      "eval": -2610,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.462822"
+    },
+    "1ee74f42f2cd74607eb35baf052c8013": {
+      "eval": -3604,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.464470"
+    },
+    "0404a81f79d4aab3b089faa5a4a34874": {
+      "eval": -2594,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.465478"
+    },
+    "220c1bc04d79bd16b65ae825989ef98a": {
+      "eval": -2907,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.781257"
+    },
+    "b1d03504ee6e2d697b128689355392e9": {
+      "eval": -3972,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.782783"
+    },
+    "b18b8a6400a27f2d2dadc74c12d43fe6": {
+      "eval": -2022,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.783973"
+    },
+    "4830a1e48172f7aaf1604dfe7b504c08": {
+      "eval": -4068,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.785371"
+    },
+    "3283c90dbd8d0cf6279733e96e444cfd": {
+      "eval": -1837,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.786644"
+    },
+    "1e82e3abdf0c58ac54b76c3f707215bc": {
+      "eval": -2977,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:08:56.788391"
+    },
+    "23137e6de2bda2408c7075c2e01b654a": {
+      "eval": -2932,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:00.792516"
+    },
+    "8eaa1fcff8538e5988d730298414e048": {
+      "eval": -1978,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:00.965294"
+    },
+    "e61e8bcbf52123cbd400abe875f67847": {
+      "eval": -2800,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:01.175072"
+    },
+    "87bad3852f176fa08b7e9edafdf5fd18": {
+      "eval": -3923,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:01.408485"
+    },
+    "4978e86442ceac13cd5537fbcd14f4da": {
+      "eval": -2112,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:01.409538"
+    },
+    "00dd63e820dc4b9f095aa289518a9c37": {
+      "eval": -2646,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:01.645328"
+    },
+    "65d34ee576f5483333217b686d7c823c": {
+      "eval": -2646,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:01.867180"
+    },
+    "70a1d066809399241fdb6a6be4011f2a": {
+      "eval": -2646,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:02.090843"
+    },
+    "bdf9fd657a76089caf1a707c5c4825bc": {
+      "eval": -2908,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:02.336156"
+    },
+    "c889741fbf347596e78dea8877d63bfb": {
+      "eval": -3190,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:02.881011"
+    },
+    "31ff58cfc2153ec8f9475015472322ac": {
+      "eval": -4184,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:02.882794"
+    },
+    "044192a41f2d6a50e336b8d135c0434f": {
+      "eval": -3063,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:02.884201"
+    },
+    "3e93d3088c65578a89fff001425130fa": {
+      "eval": -2932,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:14.845753"
+    },
+    "20c1987a7c5f25ad2883e2fe944f0d65": {
+      "eval": -3301,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:15.100709"
+    },
+    "08867f035b887c76c3e5a43015078373": {
+      "eval": -3008,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:15.336549"
+    },
+    "a08aa5afa5be17d054e92a936ed3668f": {
+      "eval": -3760,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:15.604447"
+    },
+    "7d05b3a8919ae4081b54fdb9ccc26bd3": {
+      "eval": -2809.7,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:09:18.756353"
+    },
+    "9b43bfacb0253da507125ab70ab0c352": {
+      "eval": -3139,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:15.827416"
+    },
+    "08234fc4e22a11e633ba3a152b93efba": {
+      "eval": -3967,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:15.828127"
+    },
+    "f7f1ad1791fd470028f9b0b9b78025d6": {
+      "eval": -2622,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:16.297475"
+    },
+    "e423f373601c565fdf94f95a563e8277": {
+      "eval": -2988,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:16.299389"
+    },
+    "b1190f62665c546782310e3e36d44e05": {
+      "eval": -3865,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:16.300101"
+    },
+    "99fedb500c3dc1151c0735a2607f7215": {
+      "eval": -1989,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:16.301354"
+    },
+    "056ff8c342268dc6f0145073c4242f77": {
+      "eval": -2355,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:16.302636"
+    },
+    "343595c124be35d8f54908989f263f8f": {
+      "eval": -2797,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:16.762393"
+    },
+    "9933880ace43cb832ce7686e1fe634d5": {
+      "eval": -3153,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:16.764429"
+    },
+    "7e30642d5a529b59484995ebceb2107b": {
+      "eval": -3129,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:16.765343"
+    },
+    "e67d6c85155b00352ae55a6528b2bf96": {
+      "eval": -3963,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:16.765955"
+    },
+    "5c9bfe90c2d63033a3534df829c86274": {
+      "eval": -3056,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:17.951157"
+    },
+    "9ebc402b9695aa95262edabd4a6d75a9": {
+      "eval": -2602,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:18.162093"
+    },
+    "76d6cfda7e9cc6dc718e201a44e810f8": {
+      "eval": -2718,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:18.551982"
+    },
+    "bc8ab861df0e0c8a3397dcad6ea8b90b": {
+      "eval": -2886,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:18.977908"
+    },
+    "5a86123bc7aeeae1b91092b06369e15a": {
+      "eval": -3429,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:19.208681"
+    },
+    "9fa7b5fb1d6b87ccf700a8090034a8f3": {
+      "eval": -3249,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:19.209859"
+    },
+    "f045e90f258fe52a31b0cf76f8068d6a": {
+      "eval": -3139,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:19.495135"
+    },
+    "9872613d1b86186a5718bd78e9ad45ed": {
+      "eval": -3013,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:19.809255"
+    },
+    "497dade1ba695c744d074f948666282e": {
+      "eval": -3174,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:20.066202"
+    },
+    "03306f4c539e92a9aedcd13874132df5": {
+      "eval": -3131,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:20.304170"
+    },
+    "b2bc67bb4abd9e00d54da8790661fc58": {
+      "eval": -2923,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:20.533409"
+    },
+    "8a9f87cffdfe09e07f6ff8e766bce973": {
+      "eval": -2059,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:20.761390"
+    },
+    "846378eac14fef82f796ccf79fc67b1e": {
+      "eval": -2895,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:20.994504"
+    },
+    "e050ba443c8291baab59f69f52c508cf": {
+      "eval": -2354,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:25.234240"
+    },
+    "a8c98f330009aaa00bd8bbf98b16b1d6": {
+      "eval": -3817,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:25.469431"
+    },
+    "9d28478e755948a046d0172b925c3dda": {
+      "eval": -3088,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:25.706582"
+    },
+    "6dcda069d78d5a8a51c9198303ac213f": {
+      "eval": -2810,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:25.913805"
+    },
+    "3ac88e052364d624c4684706c00917d2": {
+      "eval": -3121,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:26.143040"
+    },
+    "44c051ed8fdc72fc1330d29b762f1220": {
+      "eval": -2743,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:26.583798"
+    },
+    "20cbb864dc65a69404d92a1eac1f8b2a": {
+      "eval": -3033,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:26.781413"
+    },
+    "3a8f2b3dc9c9f3cf21158fcabdd56cd2": {
+      "eval": -2883,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:27.028021"
+    },
+    "f3486fdc73202bdb4cc792baad077042": {
+      "eval": -2749,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:27.253006"
+    },
+    "494ba4e479b99ad63cc7201870cc0c4c": {
+      "eval": -3394,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:27.474158"
+    },
+    "33061262c7e2deb45c128c10566cffe2": {
+      "eval": -2997,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:28.015526"
+    },
+    "b2bd2f86e6c071bb14bf916692101222": {
+      "eval": -2758,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:28.244791"
+    },
+    "3d16a04bda8cf1e3b00e9bae4a58058e": {
+      "eval": -2732,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:28.487492"
+    },
+    "025bf510eed8d4cf6cf57fade3504977": {
+      "eval": -3523,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:28.685774"
+    },
+    "5a02737dc1675df0f4cee89f79686ad3": {
+      "eval": -2788,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:28.893643"
+    },
+    "2a88073938f562490c4f2ce70bdaad97": {
+      "eval": -2856,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:29.119336"
+    },
+    "580b8919937b7c35ad34b95d3b15a942": {
+      "eval": -3492,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:29.355888"
+    },
+    "e1938704a44cfb004678387e09ea8c86": {
+      "eval": -3163,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:29.835261"
+    },
+    "2023bb487840e4e01699796c66d62dbb": {
+      "eval": -3571,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:29.837068"
+    },
+    "b64abf1d4743f6ebe8cdeb24e09cb9b0": {
+      "eval": -3506,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:29.838021"
+    },
+    "16ab61956f1efd4776126f0a9d52ec4f": {
+      "eval": -3455,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:30.150489"
+    },
+    "b0dfcb002d0ca1ce93f45222cf93b674": {
+      "eval": -2019,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:30.672490"
+    },
+    "a23f3477dbc28d6fe64c82891780fa86": {
+      "eval": -2145,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:30.674000"
+    },
+    "e802002720ed0dc5ef623178e47c0143": {
+      "eval": -3072,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:40.307056"
+    },
+    "00def5d36a61de2020971bd9cdfd5308": {
+      "eval": -3087,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:40.613582"
+    },
+    "f00f545531460d80cf943ef798cbe6f2": {
+      "eval": -3415,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:40.916838"
+    },
+    "9b6afc44334356b0e4bb6a5af0dd1c44": {
+      "eval": -4673,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:40.918565"
+    },
+    "f0f581b177f95ebf33868c2034f6d129": {
+      "eval": -2807,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:40.919495"
+    },
+    "ccf9d9e1cfcc39838b620243cdde380c": {
+      "eval": -3043,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:40.921048"
+    },
+    "bed0599ba8d93b744cbab4814c3240f8": {
+      "eval": -3491,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:40.921938"
+    },
+    "b5380c981b4c3ea49309b92ec4854a67": {
+      "eval": -3497,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:40.923068"
+    },
+    "16bbaa573bd473545577cd144c92eb7c": {
+      "eval": -3247,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:41.466013"
+    },
+    "f114bc3e8be243a281a3f707cddf9e2f": {
+      "eval": -3335,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:41.734255"
+    },
+    "f0fddeb0dd98cfa47e8f6e658ec7a77e": {
+      "eval": -2248,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:41.995924"
+    },
+    "e080dc467e466ff123313298f85e4f01": {
+      "eval": -2877,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:42.190280"
+    },
+    "9ce9196434a497732db62f2378753e57": {
+      "eval": -2709,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:42.376084"
+    },
+    "077cb63294dae6c61a4569a1c1639d43": {
+      "eval": -2027,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:42.946091"
+    },
+    "e236984f39c855f38f100311a1d7141a": {
+      "eval": -2920,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:43.142468"
+    },
+    "1dc4876a7419590397b1eb4b2e945ab5": {
+      "eval": -2026,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:43.523230"
+    },
+    "bf3b919a36b229dfa4bcef35ef710144": {
+      "eval": -2694,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:43.729428"
+    },
+    "9a20c65e60fb37e2465ec18d2eb88f10": {
+      "eval": -2881,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:43.964455"
+    },
+    "4af4985f68717a25051adc511702c06d": {
+      "eval": -2827,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:44.776180"
+    },
+    "1ffefaae9e010f8880467c3b63289e7c": {
+      "eval": -2828,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:44.941390"
+    },
+    "e3b87a9bf65ecd08aac96be77542841d": {
+      "eval": -2794,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:45.131802"
+    },
+    "28577796b5fc58a3773f6443e6871531": {
+      "eval": -2937,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:45.345352"
+    },
+    "be3511502b49d3555dd6959a16a9348a": {
+      "eval": -2799,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:45.572583"
+    },
+    "668e42ccd471c4a805a9341c7f3f422d": {
+      "eval": -3875,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:45.843280"
+    },
+    "4f034a9a60adfacd0ef1834b15cbb105": {
+      "eval": -3099,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:46.075380"
+    },
+    "545dc18f23ecc9008a93ac91e36f3817": {
+      "eval": -2921,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:09:46.897707"
+    },
+    "b6875195f98904bfb376d331269f1762": {
+      "eval": -3699,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:01.221449"
+    },
+    "aff64a23bb3e0e157f2161310672f024": {
+      "eval": -3663,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:01.497551"
+    },
+    "6c203b3d4c6b4d1c5e5561bc730cbd03": {
+      "eval": -3138,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:01.843929"
+    },
+    "72e397a44401e99ab7833407fae3a8b4": {
+      "eval": -3077,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:02.171563"
+    },
+    "f44d2e26aad2570cacce4d1d2469a1d4": {
+      "eval": -3051,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:02.381031"
+    },
+    "c3b0663c66b86f2383c928f5552e710d": {
+      "eval": -3026.7,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:10:02.587304"
+    },
+    "5c3847f9fc7bc47628a70bfc35b0a2b5": {
+      "eval": -3326,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:02.588393"
+    },
+    "42401e7ae6771b07cae63f2c14003f15": {
+      "eval": -2927.5999999999995,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:10:02.590936"
+    },
+    "c2477c6cffba5000347f3eb18c60dbff": {
+      "eval": -3328,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:02.591671"
+    },
+    "37080fc6e40474c85ddc0710da5973f8": {
+      "eval": -3422,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:02.592793"
+    },
+    "79eeee5aac3ffebd592f48d4ae2a46b0": {
+      "eval": -3156.4999999999995,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:10:02.595493"
+    },
+    "91675b06bfec48e45045718a15eaf987": {
+      "eval": -2128,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:02.765616"
+    },
+    "c1459a7254500cb1d30a8089133b8053": {
+      "eval": -3577,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:02.957466"
+    },
+    "499362375e662c3f6ca268c7365d1f26": {
+      "eval": -1756.5,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:10:02.959863"
+    },
+    "55c171fe8e2a51be78eb10d2d41cc0d0": {
+      "eval": -2528,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:03.153689"
+    },
+    "8a48388217da841ce40e9dc9b3a1d003": {
+      "eval": -2494,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:03.370938"
+    },
+    "b0ac19b7e47b4d924cca4213a8a70f18": {
+      "eval": -2518,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:03.595744"
+    },
+    "68f54a5c720516b05f2ce34716160b91": {
+      "eval": -2508,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:03.800162"
+    },
+    "4a18d2bd02f5feb5550f0e2e7e7ef5ff": {
+      "eval": -2691,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:03.990726"
+    },
+    "ed56182fc8f0f7a7c18bc16b946409d7": {
+      "eval": -2680,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:04.358264"
+    },
+    "ead77c07800bc708122d95278acef276": {
+      "eval": -1753,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:04.547502"
+    },
+    "222343773a099a70d9b2cec8e2352aaa": {
+      "eval": -2767,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:04.748214"
+    },
+    "6fdd605e59c7eff53b7601c84afa18fd": {
+      "eval": -3130,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:04.942467"
+    },
+    "e202bc30635249d3c9d5020118d40dd6": {
+      "eval": -2796,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:05.152530"
+    },
+    "137a5baa9d04a2c2eb617470aa0c2926": {
+      "eval": -2823,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:05.293499"
+    },
+    "71f25d21de09e8beb689f8cc4e95eadc": {
+      "eval": -2668,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:05.523270"
+    },
+    "adafd56306521166b5ff8e8773763f00": {
+      "eval": -3775,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:05.705149"
+    },
+    "408410b0366778b2d66d7a78d2cf20c4": {
+      "eval": -3752,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:05.906979"
+    },
+    "17f8e310c3b2fe7e84bdc975fe5ed5fb": {
+      "eval": -3787,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:06.118098"
+    },
+    "0894cea2e8e54c5ca204afff1408102a": {
+      "eval": -2817,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:06.337017"
+    },
+    "9a6e7c88d9ab0c4e3e81577efe8a7157": {
+      "eval": -2720,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:06.591576"
+    },
+    "fa2279f97cdbcacc06791c6a7babc31f": {
+      "eval": -1632,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:06.807438"
+    },
+    "0af635696aca8a76f467773523af4e8a": {
+      "eval": -2491,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:07.009848"
+    },
+    "e20d70ab3de2533dec841267974e9afc": {
+      "eval": -2700,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:07.225526"
+    },
+    "9d3c112dad3f10d8700830def1c924fa": {
+      "eval": -2622.0,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:10:07.869807"
+    },
+    "5e5378aebb2da1e1084ce8d971d2ede7": {
+      "eval": -2604,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:07.656615"
+    },
+    "ecd1db16e87eb70ad1249c8969774cd2": {
+      "eval": -2672,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:12.468879"
+    },
+    "a31bfb7289f38a3d88fd184ebf1a7e3b": {
+      "eval": -2783,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:12.720788"
+    },
+    "ce9a0f223df0dec574aeb1593c106df0": {
+      "eval": -2523.7,
+      "depth": 1,
+      "games_seen": 2,
+      "last_seen": "2025-11-29T08:10:14.516106"
+    },
+    "fb86d9edee40f6f283f330442ed448a1": {
+      "eval": -2876,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:13.048828"
+    },
+    "a5ee69c996933a5e5ffde325f526a216": {
+      "eval": -2940,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:13.049765"
+    },
+    "65e803ec41ae98b5ca71e935bfd2e159": {
+      "eval": -2753,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:13.945458"
+    },
+    "fb9f520dbc60e7343291c8430f6eed32": {
+      "eval": -3015,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:13.947399"
+    },
+    "1c272b4e4518abe6d95257f4eadebdc4": {
+      "eval": -3021,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:13.948315"
+    },
+    "0f8ee7ee88f33fb9e237f39935295947": {
+      "eval": -2992,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:13.949241"
+    },
+    "c3050e0a6a6544607be2179407f56a32": {
+      "eval": -2983,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:13.950183"
+    },
+    "cbf4df00c897db80d8846a510f8c3527": {
+      "eval": -2552,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:14.326058"
+    },
+    "76b1bf1b04a0c398d97bdacf9f4940a0": {
+      "eval": -2381,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:14.694711"
+    },
+    "19cc6b325df2362442611912870f1b14": {
+      "eval": -2322,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:14.875508"
+    },
+    "743954bb8b9499bc05bab5afa20f9a88": {
+      "eval": -2257,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:15.063503"
+    },
+    "73c3abeb279350ad085622082ce84e3e": {
+      "eval": -2343,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:15.600331"
+    },
+    "aa28a68dd345fcacd85e24c4fb5d333a": {
+      "eval": -2618,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:15.809721"
+    },
+    "b4cd0ae28b29472808fba4faf544f91a": {
+      "eval": -2768,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:16.036729"
+    },
+    "b318aa54d26df384876cc6058023a1a7": {
+      "eval": -2182,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:16.225529"
+    },
+    "599804d42b9f4ccd412b832b26c9e01e": {
+      "eval": -2968,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:16.453230"
+    },
+    "fff94876051c20578f8f1ccf8439ba2a": {
+      "eval": -2762,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:16.661111"
+    },
+    "53ab83090e7871f9edccbf53e7269813": {
+      "eval": -1775,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:16.874382"
+    },
+    "ad25e853d621ec73368139392190e987": {
+      "eval": -2655,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:17.076022"
+    },
+    "7281b0c9defb47eb61e170239cd4f0c9": {
+      "eval": -2451,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:17.288501"
+    },
+    "74e59cfac7ac200250d6b74f5224e0a2": {
+      "eval": -2993,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:17.484575"
+    },
+    "a4c61e5fa4c511384ff3e69c6a8469ed": {
+      "eval": -3464,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:17.680354"
+    },
+    "b9fdcdabcf9463f4c1253221d01b19d0": {
+      "eval": -2887,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:17.907598"
+    },
+    "5906e97c4bf164b23b873e0ae94acd91": {
+      "eval": -2948,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:18.121141"
+    },
+    "7954f7f43b6fb3887b7fd96b7d78feee": {
+      "eval": -2841,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:18.350140"
+    },
+    "7c390e717a5c6840846af428163f51f8": {
+      "eval": -3598,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:18.747916"
+    },
+    "e40075664e3f599a3709d5c30c93364d": {
+      "eval": -3372,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:18.910565"
+    },
+    "222e8ef32e5f097de785aad80c1ba632": {
+      "eval": -2405,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:26.682720"
+    },
+    "0707078ef7e0b5b0a4a04ac849052c8f": {
+      "eval": -3015,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:27.496644"
+    },
+    "9833eed1ca9a09240120fa204ec6fd46": {
+      "eval": -2517,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:27.681896"
+    },
+    "0a377263914aed36ddd56fb94a19856d": {
+      "eval": -2338,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:27.833715"
+    },
+    "5f006999e58a0eedc7750b828af2daae": {
+      "eval": -1448,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:27.964907"
+    },
+    "550feb06d73b65bb2bd8dd6dc5d12b26": {
+      "eval": -2361,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:28.291205"
+    },
+    "ff980e0861ccdd6d79485753bba70702": {
+      "eval": -2421,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:28.494970"
+    },
+    "d68721416642180620264a47c525ef97": {
+      "eval": -1392,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:29.006456"
+    },
+    "4a55ea990f1bb49e4089b87ad7181a59": {
+      "eval": -2396,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:29.199832"
+    },
+    "5d435699ef005f4c691ddee40860750c": {
+      "eval": -2332,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:29.414436"
+    },
+    "7c4c1241047d7f62806e4abb76f99470": {
+      "eval": -2200,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:29.606628"
+    },
+    "24889c81ad44d46431339c5dc5363930": {
+      "eval": -3081,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:29.833294"
+    },
+    "ce4739f04bad58a9c599bd000781cce2": {
+      "eval": -3094,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:29.835087"
+    },
+    "fe258d082273207819e327ed1a473393": {
+      "eval": -3834,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:29.835613"
+    },
+    "0bbb1421a25eb5f868799a137eb202d6": {
+      "eval": -2951,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:29.836555"
+    },
+    "52ec627764ab6efc77fecbab341bb4b7": {
+      "eval": -3229,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:29.837385"
+    },
+    "ed31c7e9eb3b8abf61573d6a2cd331df": {
+      "eval": -1282,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:30.647385"
+    },
+    "f144b4ab711c2848482b549599a1c56f": {
+      "eval": -1632,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:30.648606"
+    },
+    "0a7c4884d98b0fc06c48bc3261200166": {
+      "eval": -1458,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:30.649348"
+    },
+    "b5e0baad9cb777b99e685c47503e8c93": {
+      "eval": -2341,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:30.939082"
+    },
+    "681dd9074b14b365a31e912dc719dab1": {
+      "eval": -2536,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:30.940674"
+    },
+    "2b218975e13c24b145a05834a759d467": {
+      "eval": -2474,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:31.745613"
+    },
+    "16f1994d8d712c6daea19385ca3c7243": {
+      "eval": -3517,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:31.746837"
+    },
+    "4afe00e313ab53c320e48982ed48bd5e": {
+      "eval": -1819,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:31.747697"
+    },
+    "67f9f19024fb5810872657fd0011406d": {
+      "eval": -2298,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:31.971910"
+    },
+    "1ffab03292eeb1f27ad5dbb79419298c": {
+      "eval": -2608,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:31.973671"
+    },
+    "ebc9c4a0bf78fbd5669a26adce39625e": {
+      "eval": -2543,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:31.974443"
+    },
+    "61cc583532f50f51d699b229c9d7a618": {
+      "eval": -2427,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:10:31.975240"
+    },
+    "d8650ac34976a1c54c507598c97311e2": {
+      "eval": -3033,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:02.864281"
+    },
+    "91e772b7e0871c47e75c2f1ad5a6e9be": {
+      "eval": -1551,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:02.991543"
+    },
+    "08cf5a2882bf8f5fad6b8afcf5bd3bd2": {
+      "eval": -2611,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:03.189100"
+    },
+    "a0ac9d729b9987c2312cd933412f16a0": {
+      "eval": -3054,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:03.602664"
+    },
+    "7516e56bbdc47c1094df48ee23f45251": {
+      "eval": -3182,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:03.780975"
+    },
+    "7f4808f887580bc1219e78fc90ec64dc": {
+      "eval": -2883,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:03.977900"
+    },
+    "0bca2030d51bd852ac3705c3c592964a": {
+      "eval": -3291,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:04.130176"
+    },
+    "2ef624e2aa3cadbddfeadeccd0987f81": {
+      "eval": -2738,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:04.504849"
+    },
+    "c94f436b9f54ee4d43c7e61a1276966a": {
+      "eval": -2643,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:04.821197"
+    },
+    "2feb9d05ceab1ca350a7e643fc4940df": {
+      "eval": -2487,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:05.152946"
+    },
+    "66a0b5c1f24363a640763aa72870bf12": {
+      "eval": -2914,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:05.842040"
+    },
+    "bd7fdf1de1b6b4ac36f3f420a29e8d64": {
+      "eval": -3123,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:05.843722"
+    },
+    "7d0fc42aba9f7a83f41fdc02648dac15": {
+      "eval": -2554,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:06.532326"
+    },
+    "4c8096349683ef87d3e6ba59a4e0e873": {
+      "eval": -2852,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:06.533996"
+    },
+    "7802d9b6bacf4dc96c2ae9d3d07f0403": {
+      "eval": -3091,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:06.633260"
+    },
+    "30e7d4bef805143d593389c321e6ec88": {
+      "eval": -2707,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:06.867727"
+    },
+    "24fcc2c3e4f8d259dc5542f4ea8d79b5": {
+      "eval": -3355,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:06.869233"
+    },
+    "054c2e17fb3bfadd5e6cc7f366c68950": {
+      "eval": -1654,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:07.002676"
+    },
+    "48e8fb45e64b9700275a74e042515b79": {
+      "eval": -2856,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:07.102418"
+    },
+    "f57fcc9f3a9cd4a9e5b143066d87d172": {
+      "eval": -3770,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:07.103743"
+    },
+    "b29d9016ba80b1f6c92bb48730d0b4b0": {
+      "eval": -3132,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:07.104470"
+    },
+    "23f0aec13e6eb2e3eb97b1d77e78401d": {
+      "eval": -3121,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:07.585948"
+    },
+    "9177fd8530a903173cf6a2ab6970a0e7": {
+      "eval": -2633,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:08.410257"
+    },
+    "65d16b6b7e4db24d6c978c305b6f841a": {
+      "eval": -3847,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:08.412215"
+    },
+    "567d4358e401778fd831c2a6473f8db8": {
+      "eval": -2055,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:08.413124"
+    },
+    "218f043bf17e1133c8dcba9ce1db6dbf": {
+      "eval": -2813,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:08.414613"
+    },
+    "2837538be5d02e1baf8aac84e8f8c7e0": {
+      "eval": -3145,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:21.395416"
+    },
+    "e1637709439451bd0ff84d73bbf78019": {
+      "eval": -3413,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:37.931822"
+    },
+    "e426187f589c785b587ab23ac5a60e6b": {
+      "eval": -2683,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:38.135108"
+    },
+    "bae8282317fb424a39ea4ce7d0c77911": {
+      "eval": -3721,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:38.559175"
+    },
+    "0bc219056257c0c28e3fcbdf6b705ed2": {
+      "eval": -2010,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:38.560039"
+    },
+    "3e23eee4b2e6f8e32d38b55210ddf9d1": {
+      "eval": -2409,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:38.561129"
+    },
+    "a86f11969d4664178ba5a98c6be74bcf": {
+      "eval": -2170,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:38.867132"
+    },
+    "fe321cffbf3a76a272f3d71fe763def8": {
+      "eval": -3081,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:39.580270"
+    },
+    "2942ce9539bb9c666562172a0f4f8f04": {
+      "eval": -3373,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:39.748977"
+    },
+    "cd91269e6e89dce8dc5b2d82a7539c44": {
+      "eval": -2771,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:39.927418"
+    },
+    "f1be25b295edd4606fac0ede1cc2b719": {
+      "eval": -2757,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:40.101113"
+    },
+    "65c88dc499322ec1ba6bf6693b976b57": {
+      "eval": -2594,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:40.228093"
+    },
+    "a245679888b080dd97ae0400b0ab2de1": {
+      "eval": -2845,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:40.229551"
+    },
+    "a38e7a8a7219a4a84c0671480a2560bb": {
+      "eval": -2813,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:40.230133"
+    },
+    "a11fe3fd448b35b534b25382d87c339a": {
+      "eval": -2816,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:41.408574"
+    },
+    "4fa07199985c8fd82e18df4a014ffb6d": {
+      "eval": -3129,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:41.410540"
+    },
+    "8e89c13d4473d486508cec34d7b7a2bb": {
+      "eval": -2986,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:44.909147"
+    },
+    "13e8bb04c54711b824f9c51bac0aff6b": {
+      "eval": -3080,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:45.264175"
+    },
+    "5a813be1fb4e20d939eb55a676ae2fcb": {
+      "eval": -2499,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:45.434052"
+    },
+    "9e06f89cf40e4e4d2c68c1ccb9d6e680": {
+      "eval": -2174,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:45.603742"
+    },
+    "6151a9ca65ffecbb93119e0ba9eb03a7": {
+      "eval": -3052,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:46.279239"
+    },
+    "f964deaa5b9f05b1e98879697f93b9ba": {
+      "eval": -3515,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:11:46.280580"
+    },
+    "2d5458d9fd6e9a04e953357f574dda8e": {
+      "eval": -2935,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:03.568831"
+    },
+    "639623bcdda3115584f0eadcb6bf91b9": {
+      "eval": -2817,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:04.403344"
+    },
+    "b28d25cfd460d98d9de55fef3b749f77": {
+      "eval": -3589,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:04.540757"
+    },
+    "1c35a6cd391dea75a90d1f5b5db80669": {
+      "eval": -3075,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:04.990589"
+    },
+    "6314eff6313fa2a565599aa57cbbcfd1": {
+      "eval": -1888,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:05.128761"
+    },
+    "1b58aa458411bf27ee3112cb5ebb211d": {
+      "eval": -1938,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:05.268569"
+    },
+    "7756d5c41377391ec4832b5fc77f33a6": {
+      "eval": -1943,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:05.516043"
+    },
+    "a720423dba995e903ac9cc368bba6348": {
+      "eval": -3016,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:05.861629"
+    },
+    "f9a99f23e9d54f0376e4e660dc6f07a9": {
+      "eval": -2808,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:06.384457"
+    },
+    "fe17d2e036f0134da702558dd4679d38": {
+      "eval": -3104,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:06.385921"
+    },
+    "8ed9e27617e60f23fa15f6c4acc5d028": {
+      "eval": -3176,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:06.386548"
+    },
+    "74548e503c7fd548307ce94b9124cfdc": {
+      "eval": -2714,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:14.575502"
+    },
+    "02631abb94dacae563c95f4807e3d1f9": {
+      "eval": -3721,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:14.576925"
+    },
+    "9faa5ea221567b0456625f40445b9780": {
+      "eval": -2565,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:14.577676"
+    },
+    "2b4452cc56b9fb5c55648a0589b58b3b": {
+      "eval": -3387,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:14.769317"
+    },
+    "72fc363d4cbff23f21c6080403181e9b": {
+      "eval": -2697,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:14.947369"
+    },
+    "66999f886b45d1c3de5fd586478f3088": {
+      "eval": -2931,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:15.093336"
+    },
+    "ec07499a1d383ba3d9aaed108a960313": {
+      "eval": -2781,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:15.292660"
+    },
+    "d388693ce025c7b1f013d43891da1aa7": {
+      "eval": -2823,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:15.492403"
+    },
+    "b1f171d93edd698ff0cc547cf1de9acb": {
+      "eval": -3029,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:20.750699"
+    },
+    "04e31f575427b6efea2292ed989d81a3": {
+      "eval": -2793,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:20.935702"
+    },
+    "f319202bc03c7775334daeb7f12f615e": {
+      "eval": -3076,
+      "depth": 1,
+      "games_seen": 1,
+      "last_seen": "2025-11-29T08:12:21.119243"
+    }
+  },
+  "winning_sequences": {},
+  "losing_sequences": {
+    "3b5d9fff952866a94831b7a78b7a3e1a": {
+      "sequence": [
+        "a8a7",
+        "a7b6",
+        "b6b5",
+        "b5b4",
+        "b4a3",
+        "a3a2"
+      ],
+      "frequency": 1
+    }
+  },
+  "opponent_patterns": {
+    "common_mistakes": [],
+    "strong_defenses": []
+  },
+  "strategic_concepts": {
+    "piece_coordination": 0.5,
+    "center_control": 0.7,
+    "king_safety": 0.77,
+    "pawn_structure": 0.6,
+    "piece_activity": 0.7
+  },
+  "stats": {
+    "total_positions_analyzed": 923,
+    "patterns_learned": 5,
+    "successful_predictions": 0,
+    "failed_predictions": 1,
+    "last_updated": "2025-11-29T08:12:35.623105"
+  }
+}

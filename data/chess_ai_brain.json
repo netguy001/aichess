@@ -1,0 +1,3014 @@
+{
+    "games_played": 16,
+    "ai_wins": 5,
+    "player_wins": 7,
+    "draws": 4,
+    "game_history": [
+        {
+            "game_id": 1,
+            "date": "2025-11-26T19:05:27.252712",
+            "difficulty": "medium",
+            "moves": [
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 5
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:00:51.377171",
+                    "evaluation": 7.59123448793623
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 4
+                        },
+                        "to": {
+                            "row": 1,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:00:56.106327",
+                    "evaluation": 5.35304743442364
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 5
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 4
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:01:16.948158",
+                    "evaluation": 5.629377667699902
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 2,
+                            "col": 4
+                        },
+                        "to": {
+                            "row": 3,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:01:32.943066",
+                    "evaluation": 10.372156367504754
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:01:38.290233",
+                    "evaluation": 1.5031377928033614
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 3,
+                            "col": 5
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 6
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:01:58.882881",
+                    "evaluation": 9.737672360995845
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 2,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 4,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:02:10.929950",
+                    "evaluation": 7.786543610067865
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 0,
+                            "col": 4
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:02:30.771010",
+                    "evaluation": 21.084641388723995
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 4,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 6,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:03:01.224109",
+                    "evaluation": 43.44609966236571
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 2,
+                            "col": 6
+                        },
+                        "to": {
+                            "row": 1,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:03:07.278063",
+                    "evaluation": -1.178597561037698
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 0
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 0
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:03:26.855625",
+                    "evaluation": -3.9690032771720603
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 3,
+                            "col": 1
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:03:34.359823",
+                    "evaluation": -5.106143373573307
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 3,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:03:49.285161",
+                    "evaluation": -3.8718143593637393
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 3,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:04:25.961501",
+                    "evaluation": 3.860000435206043
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 3,
+                            "col": 5
+                        },
+                        "to": {
+                            "row": 6,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:04:43.460242",
+                    "evaluation": 107.97521492672745
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 6,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 7,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:04:56.645236",
+                    "evaluation": 121.81368227235106
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 0
+                        },
+                        "to": {
+                            "row": 0,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:04:59.860814",
+                    "evaluation": 132.0712325186567
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 6
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 7
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:05:10.951151",
+                    "evaluation": 146.46798813354957
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 0,
+                            "col": 0
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:05:15.379230",
+                    "evaluation": 144.33311377469414
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 4
+                        },
+                        "to": {
+                            "row": 1,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:05:22.010049",
+                    "evaluation": 143.791488141829
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 3,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 4,
+                            "col": 4
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:05:27.252377",
+                    "evaluation": 1006.2911800212779
+                }
+            ],
+            "winner": "black",
+            "total_moves": 21
+        },
+        {
+            "game_id": 2,
+            "date": "2025-11-26T19:10:55.871478",
+            "difficulty": "medium",
+            "moves": [
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 0
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:10:24.327588",
+                    "evaluation": 10.361413131250206
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 6
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:10:27.646615",
+                    "evaluation": 14.817591666615247
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 2,
+                            "col": 5
+                        },
+                        "to": {
+                            "row": 4,
+                            "col": 4
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:10:31.110694",
+                    "evaluation": 13.643128617898729
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 5
+                        },
+                        "to": {
+                            "row": 3,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:10:37.171127",
+                    "evaluation": 7.949169589719602
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 3,
+                            "col": 5
+                        },
+                        "to": {
+                            "row": 4,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:10:39.949904",
+                    "evaluation": -27.236624579675123
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 0
+                        },
+                        "to": {
+                            "row": 0,
+                            "col": 1
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:10:43.023574",
+                    "evaluation": -41.69280567497252
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 2,
+                            "col": 0
+                        },
+                        "to": {
+                            "row": 3,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:10:49.765639",
+                    "evaluation": -37.89177896220057
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 1
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:10:52.414272",
+                    "evaluation": -45.0864535929739
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 0,
+                            "col": 4
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:10:55.870915",
+                    "evaluation": -925.7875309554092
+                }
+            ],
+            "winner": "white",
+            "total_moves": 9
+        },
+        {
+            "game_id": 3,
+            "date": "2025-11-26T19:12:40.965164",
+            "difficulty": "medium",
+            "moves": [
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 6
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:11:47.824552",
+                    "evaluation": 9.287301142713837
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:11:53.041255",
+                    "evaluation": 14.220754834044847
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 3,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:11:55.919566",
+                    "evaluation": 15.329632721890746
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 4
+                        },
+                        "to": {
+                            "row": 1,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:11:59.243052",
+                    "evaluation": 18.80299155762295
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 0,
+                            "col": 4
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:12:02.480802",
+                    "evaluation": 6.874772536819258
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 6
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:12:04.102143",
+                    "evaluation": 64.88385753407618
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 3,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 4,
+                            "col": 4
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:12:09.969898",
+                    "evaluation": 72.3039339531197
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:12:14.654481",
+                    "evaluation": -20.943089543740996
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 1,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:12:23.414929",
+                    "evaluation": -12.698182608926036
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:12:25.606166",
+                    "evaluation": -84.98156054749687
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 2,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 4,
+                            "col": 1
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:12:33.749958",
+                    "evaluation": -86.5412981788933
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 2,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 3,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:12:36.678588",
+                    "evaluation": -82.61940878607805
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 4,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:12:39.000120",
+                    "evaluation": -59.92279745934435
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 4
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:12:40.964507",
+                    "evaluation": -953.8090600739928
+                }
+            ],
+            "winner": "white",
+            "total_moves": 14
+        },
+        {
+            "game_id": 4,
+            "date": "2025-11-26T19:26:09.823425",
+            "difficulty": "medium",
+            "moves": [
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 0
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:24:32.644195",
+                    "evaluation": 13.072598188093068
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 1
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:24:34.722772",
+                    "evaluation": 8.674294525497167
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 2,
+                            "col": 0
+                        },
+                        "to": {
+                            "row": 0,
+                            "col": 1
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:24:40.466812",
+                    "evaluation": 14.85042919669527
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 1,
+                            "col": 1
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:24:49.949218",
+                    "evaluation": 19.572041720279927
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:24:55.515456",
+                    "evaluation": 23.756559990302225
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 0
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:24:59.149462",
+                    "evaluation": 21.852933741384696
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 4
+                        },
+                        "to": {
+                            "row": 2,
+                            "col": 4
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:25:02.553999",
+                    "evaluation": 11.323635069220913
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 2,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 5,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:25:05.641512",
+                    "evaluation": 11.15038327246727
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 0,
+                            "col": 1
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:25:10.030727",
+                    "evaluation": 2.0489677317158055
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 3,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:25:26.871798",
+                    "evaluation": -2.213859450644943
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 3,
+                            "col": 2
+                        },
+                        "to": {
+                            "row": 4,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:25:35.805957",
+                    "evaluation": 1.341843933360817
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 1
+                        },
+                        "to": {
+                            "row": 4,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:25:37.843604",
+                    "evaluation": 12.710975131849786
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 4,
+                            "col": 5
+                        },
+                        "to": {
+                            "row": 7,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:25:40.804816",
+                    "evaluation": 0.35560367404405824
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 1,
+                            "col": 5
+                        },
+                        "to": {
+                            "row": 3,
+                            "col": 5
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:25:43.934833",
+                    "evaluation": -88.85117305936448
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 4,
+                            "col": 3
+                        },
+                        "to": {
+                            "row": 5,
+                            "col": 2
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:25:49.054793",
+                    "evaluation": -83.50117710509916
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 4
+                        },
+                        "to": {
+                            "row": 0,
+                            "col": 3
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:26:04.565898",
+                    "evaluation": -95.47223068946899
+                },
+                {
+                    "player": "black",
+                    "move": {
+                        "from": {
+                            "row": 0,
+                            "col": 5
+                        },
+                        "to": {
+                            "row": 1,
+                            "col": 4
+                        }
+                    },
+                    "timestamp": "2025-11-26T19:26:09.822828",
+                    "evaluation": -988.1346872182121
+                }
+            ],
+            "winner": "white",
+            "total_moves": 17
+        },
+        {
+            "game_id": 5,
+            "date": "2025-11-27T07:57:08.531712",
+            "difficulty": "hard",
+            "moves": [],
+            "winner": "white",
+            "total_moves": 0
+        },
+        {
+            "game_id": 6,
+            "date": "2025-11-27T07:59:57.969964",
+            "difficulty": "hard",
+            "moves": [],
+            "winner": "black",
+            "total_moves": 0
+        },
+        {
+            "game_id": 7,
+            "date": "2025-11-27T08:11:25.686888",
+            "difficulty": "hard",
+            "moves": [],
+            "winner": "draw",
+            "total_moves": 0
+        },
+        {
+            "game_id": 8,
+            "date": "2025-11-27T08:32:46.160777",
+            "difficulty": "hard",
+            "moves": [],
+            "winner": "black",
+            "total_moves": 0
+        },
+        {
+            "game_id": 9,
+            "date": "2025-11-27T09:09:41.825132",
+            "difficulty": "hard",
+            "moves": [
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "piece": "r",
+                    "captured": "B",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "B",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 7
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 3
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "Q",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                }
+            ],
+            "winner": "white",
+            "total_moves": 28
+        },
+        {
+            "game_id": 10,
+            "date": "2025-11-28T19:02:33.677338",
+            "difficulty": "hard",
+            "moves": [
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 0
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "B",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 5
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "B",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 5,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 7,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "Q",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 7
+                    },
+                    "piece": "b",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 5,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 0
+                    },
+                    "piece": "r",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 5,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 7,
+                        "col": 0
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 7,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 7,
+                        "col": 1
+                    },
+                    "piece": "r",
+                    "captured": "R",
+                    "promotion": null
+                }
+            ],
+            "winner": "black",
+            "total_moves": 22
+        },
+        {
+            "game_id": 11,
+            "date": "2025-11-28T21:45:08.977359",
+            "difficulty": "hard",
+            "moves": [
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 1
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 6,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "q",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 0
+                    },
+                    "piece": "b",
+                    "captured": "Q",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 7
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                }
+            ],
+            "winner": "white",
+            "total_moves": 35
+        },
+        {
+            "game_id": 12,
+            "date": "2025-11-28T21:51:48.040785",
+            "difficulty": "hard",
+            "moves": [
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 7
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 6
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "q",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 7,
+                        "col": 0
+                    },
+                    "piece": "q",
+                    "captured": "R",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 6
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 0
+                    },
+                    "piece": "n",
+                    "captured": "B",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 7,
+                        "col": 4
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                }
+            ],
+            "winner": "black",
+            "total_moves": 21
+        },
+        {
+            "game_id": 13,
+            "date": "2025-11-29T07:48:44.909177",
+            "difficulty": "hard",
+            "moves": [],
+            "winner": "draw",
+            "total_moves": 0
+        },
+        {
+            "game_id": 14,
+            "date": "2025-11-29T07:48:51.472391",
+            "difficulty": "hard",
+            "moves": [],
+            "winner": "draw",
+            "total_moves": 0
+        },
+        {
+            "game_id": 15,
+            "date": "2025-11-29T07:49:06.593972",
+            "difficulty": "hard",
+            "moves": [],
+            "winner": "draw",
+            "total_moves": 0
+        },
+        {
+            "game_id": 16,
+            "date": "2025-11-29T08:12:35.622779",
+            "difficulty": "hard",
+            "moves": [
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 0
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "q",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "q",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 0
+                    },
+                    "piece": "b",
+                    "captured": "Q",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "piece": "r",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 7
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 2
+                    },
+                    "piece": "p",
+                    "captured": "B",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 0
+                    },
+                    "piece": "b",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 1
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "piece": "k",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 5,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                }
+            ],
+            "winner": "white",
+            "total_moves": 43
+        }
+    ],
+    "ai_weights": {},
+    "learning_data": {
+        "opening_positions": 4,
+        "positions_remembered": 893,
+        "winning_patterns": 0,
+        "losing_patterns": 1,
+        "tactical_patterns": 0,
+        "total_analyzed": 923,
+        "patterns_learned": 5,
+        "strategic_weights": {
+            "piece_coordination": 0.5,
+            "center_control": 0.7,
+            "king_safety": 0.77,
+            "pawn_structure": 0.6,
+            "piece_activity": 0.7
+        }
+    }
+}
