@@ -206,7 +206,8 @@ def new_game():
 
     # Load AI learning data
     data = load_data()
-    # chess_ai.load_learning_data(data["learning_data"])  # Now auto-loaded
+    if "learning_data" in data:
+        chess_ai.load_learning_data(data["learning_data"])
 
     # Get stats
     stats = get_stats().json
@@ -458,10 +459,12 @@ def save_game_and_learn(winner):
     data["game_history"].append(game_record)
 
     # Let AI learn
-    learning_updates = chess_ai.learn_from_game(
+    learning_stats = chess_ai.learn_from_game(
         current_game["move_history"], winner, current_game["difficulty"]
     )
-    data["learning_data"] = learning_updates
+    # Store learning stats (AI manages its own strategic_brain.json)
+    if learning_stats:
+        data["last_learning_stats"] = learning_stats
 
     # Keep only last 1000 games
     if len(data["game_history"]) > 1000:

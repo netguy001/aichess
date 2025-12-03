@@ -195,10 +195,10 @@ class StrategicDatabase:
         if concept in self.data["strategic_concepts"]:
             current = self.data["strategic_concepts"][concept]
             # Gradual learning: adjust by 0.05
-            if success:
-                self.data["strategic_concepts"][concept] = min(1.0, current + 0.05)
-            else:
-                self.data["strategic_concepts"][concept] = max(0.1, current - 0.03)
+        if success:
+            self.data["strategic_concepts"][concept] = min(1.0, current + 0.12)
+        else:
+            self.data["strategic_concepts"][concept] = max(0.1, current - 0.08)
 
     def get_strategic_weight(self, concept):
         """Get importance weight of a strategic concept"""

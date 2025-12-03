@@ -1,7 +1,7 @@
 {
-    "games_played": 19,
+    "games_played": 21,
     "ai_wins": 5,
-    "player_wins": 9,
+    "player_wins": 11,
     "draws": 5,
     "game_history": [
         {
@@ -5255,21 +5255,705 @@
             ],
             "winner": "draw",
             "total_moves": 45
+        },
+        {
+            "game_id": 20,
+            "date": "2025-12-03T15:15:11.253312",
+            "difficulty": "hard",
+            "moves": [
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 0
+                    },
+                    "piece": "b",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 0
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 1
+                    },
+                    "piece": "q",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 6,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 6,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 2
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 7
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 7
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                }
+            ],
+            "winner": "white",
+            "total_moves": 25
+        },
+        {
+            "game_id": 21,
+            "date": "2025-12-03T15:58:01.759574",
+            "difficulty": "hard",
+            "moves": [
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 1
+                    },
+                    "piece": "b",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "q",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 0
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "piece": "n",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 5
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 5
+                    },
+                    "piece": "n",
+                    "captured": "P",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 4,
+                        "col": 4
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "piece": "b",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 3
+                    },
+                    "to": {
+                        "row": 5,
+                        "col": 5
+                    },
+                    "piece": "b",
+                    "captured": "N",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 1
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 5
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 5
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 2,
+                        "col": 6
+                    },
+                    "to": {
+                        "row": 3,
+                        "col": 6
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 0,
+                        "col": 2
+                    },
+                    "to": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 1,
+                        "col": 1
+                    },
+                    "to": {
+                        "row": 2,
+                        "col": 0
+                    },
+                    "piece": "k",
+                    "captured": "",
+                    "promotion": null
+                },
+                {
+                    "from": {
+                        "row": 3,
+                        "col": 0
+                    },
+                    "to": {
+                        "row": 4,
+                        "col": 0
+                    },
+                    "piece": "p",
+                    "captured": "",
+                    "promotion": null
+                }
+            ],
+            "winner": "white",
+            "total_moves": 25
         }
     ],
     "ai_weights": {},
     "learning_data": {
-        "opening_positions": 11,
-        "positions_remembered": 4984,
+        "opening_positions": 15,
+        "positions_remembered": 5485,
         "winning_patterns": 0,
-        "losing_patterns": 3,
+        "losing_patterns": 4,
         "tactical_patterns": 0,
-        "total_analyzed": 5102,
-        "patterns_learned": 20,
+        "total_analyzed": 5607,
+        "patterns_learned": 25,
         "strategic_weights": {
             "piece_coordination": 0.5,
             "center_control": 0.7,
-            "king_safety": 0.71,
+            "king_safety": 0.6799999999999999,
+            "pawn_structure": 0.6,
+            "piece_activity": 0.7
+        }
+    },
+    "last_learning_stats": {
+        "opening_positions": 18,
+        "positions_remembered": 6128,
+        "winning_patterns": 0,
+        "losing_patterns": 5,
+        "tactical_patterns": 0,
+        "total_analyzed": 6256,
+        "patterns_learned": 30,
+        "strategic_weights": {
+            "piece_coordination": 0.5,
+            "center_control": 0.7,
+            "king_safety": 0.6,
             "pawn_structure": 0.6,
             "piece_activity": 0.7
         }

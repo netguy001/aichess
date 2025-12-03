@@ -134,21 +134,21 @@ class ChessAI:
         self.difficulty_config = {
             "medium": {
                 "depth": 4,
-                "time_limit": 4.0,  # More time to search
+                "time_limit": 6.0,  # More time to search
                 "use_book": True,
                 "randomness": 0.2,  # Less randomness (was 0.3)
                 "eval_noise": 0.15,  # Add some evaluation uncertainty
             },
             "hard": {
                 "depth": 6,  # Increased from 5
-                "time_limit": 7.0,  # Increased from 5
+                "time_limit": 10.0,  # Increased from 5
                 "use_book": True,
                 "randomness": 0.08,  # Reduced from 0.15
                 "eval_noise": 0.05,  # Minimal uncertainty
             },
             "impossible": {
                 "depth": 8,  # Increased from 7!
-                "time_limit": 12.0,  # Increased from 10
+                "time_limit": 15.0,  # Increased from 10
                 "use_book": True,
                 "randomness": 0.0,  # Perfect play
                 "eval_noise": 0.0,  # No uncertainty
@@ -1477,7 +1477,7 @@ class ChessAI:
 
         # CRITICAL: Limit quiescence depth STRICTLY + time check
         if (
-            depth > 2
+            depth > 1
             or self.time_up
             or (time.time() - self.search_start_time) > self.time_limit
         ):
@@ -1495,7 +1495,7 @@ class ChessAI:
             captures = self._get_capture_moves(board, "black")
             captures = self._order_captures(board, captures)
 
-            for move in captures[:5]:  # Limit captures checked MORE strictly
+            for move in captures[:3]:  # Limit captures checked MORE strictly
                 if (
                     self.time_up
                     or (time.time() - self.search_start_time) > self.time_limit
@@ -1531,7 +1531,7 @@ class ChessAI:
             captures = self._get_capture_moves(board, "white")
             captures = self._order_captures(board, captures)
 
-            for move in captures[:5]:  # Limit captures checked MORE strictly
+            for move in captures[:3]:  # Limit captures checked MORE strictly
                 if (
                     self.time_up
                     or (time.time() - self.search_start_time) > self.time_limit
@@ -1843,6 +1843,11 @@ class ChessAI:
 
         # Add current position to history
         self.add_position_to_history(board)
+        # Track recent moves
+        current_pos = self.hash_position(board)
+        self.recent_moves.append(current_pos)
+        if len(self.recent_moves) > 8:
+            self.recent_moves = self.recent_moves[-8:]
 
         # Get difficulty configuration
         if difficulty in self.difficulty_config:
@@ -1861,7 +1866,7 @@ class ChessAI:
 
         # Check opening book first (only in opening phase)
         book_move = None
-        if use_opening_book and self.game_phase == "opening" and self.move_count <= 12:
+        if use_opening_book and self.move_count <= 20:  # Extended from 12
             pos_hash = self.hash_position(board)
             book_move_str = self.strategic_db.get_opening_book_move(pos_hash)
 
@@ -1908,7 +1913,42 @@ class ChessAI:
             )
 
         # Add some randomness for lower difficulties
+
         if randomness > 0 and random.random() < randomness:
+            # ANTI-REPETITION: Avoid repeating positions
+            if best_move:
+                temp_test_board = self.make_move_simple(
+                    board,
+                    best_move["from"]["row"],
+                    best_move["from"]["col"],
+                    best_move["to"]["row"],
+                    best_move["to"]["col"],
+                )
+                test_hash = self.hash_position(temp_test_board)
+
+                if (
+                    len(self.recent_moves) >= 2
+                    and self.recent_moves.count(test_hash) >= 1
+                ):
+                    candidate_moves = self.order_moves(
+                        board, legal_moves, "black", max_depth
+                    )[:5]
+                    for alt_move in candidate_moves:
+                        alt_board = self.make_move_simple(
+                            board,
+                            alt_move["from"]["row"],
+                            alt_move["from"]["col"],
+                            alt_move["to"]["row"],
+                            alt_move["to"]["col"],
+                        )
+                        alt_hash = self.hash_position(alt_board)
+                        if self.recent_moves.count(alt_hash) == 0:
+                            best_move = alt_move
+                            break
+
+        # Add some randomness for lower difficulties
+        if randomness > 0 and random.random() < randomness:
+
             # Pick from top moves with weighted probability
             candidate_moves = self.order_moves(board, legal_moves, "black", max_depth)[
                 :8
