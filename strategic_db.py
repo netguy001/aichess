@@ -189,8 +189,6 @@ class StrategicDatabase:
     def update_strategic_weight(self, concept, success):
         """
         Update the importance weight of a strategic concept
-        concept: 'center_control', 'king_safety', etc.
-        success: True/False
         """
         if concept in self.data["strategic_concepts"]:
             current = self.data["strategic_concepts"][concept]

@@ -6,12 +6,20 @@ import time
 from datetime import datetime
 from collections import defaultdict
 from strategic_db import StrategicDatabase
+from chess_knowledge import ChessKnowledge  # Add this import
+
+
+class ChessAI:
+    def __init__(self):
+        self.strategic_db = StrategicDatabase()
+        self.chess_knowledge = ChessKnowledge()  # Add this line
 
 
 class ChessAI:
     def __init__(self):
         # Initialize strategic database
         self.strategic_db = StrategicDatabase()
+        self.chess_knowledge = ChessKnowledge()
 
         # Enhanced piece values
         self.piece_values = {
@@ -133,25 +141,25 @@ class ChessAI:
         # Difficulty settings - IMPROVED
         self.difficulty_config = {
             "medium": {
-                "depth": 4,
-                "time_limit": 6.0,  # More time to search
+                "depth": 4,  # ✅ Reduced from 4 - faster but smarter ordering
+                "time_limit": 4.0,
                 "use_book": True,
-                "randomness": 0.2,  # Less randomness (was 0.3)
-                "eval_noise": 0.15,  # Add some evaluation uncertainty
+                "randomness": 0.0,
+                "eval_noise": 0.08,
             },
             "hard": {
-                "depth": 6,  # Increased from 5
-                "time_limit": 10.0,  # Increased from 5
+                "depth": 5,  # ✅ Reduced from 6 - but with better pruning
+                "time_limit": 5.0,
                 "use_book": True,
-                "randomness": 0.08,  # Reduced from 0.15
-                "eval_noise": 0.05,  # Minimal uncertainty
+                "randomness": 0.0,
+                "eval_noise": 0.02,
             },
             "impossible": {
-                "depth": 8,  # Increased from 7!
-                "time_limit": 15.0,  # Increased from 10
+                "depth": 6,  # ✅ Reduced from 8
+                "time_limit": 8.0,
                 "use_book": True,
-                "randomness": 0.0,  # Perfect play
-                "eval_noise": 0.0,  # No uncertainty
+                "randomness": 0.0,
+                "eval_noise": 0.0,
             },
         }
 
@@ -167,6 +175,9 @@ class ChessAI:
         # Game phase tracking
         self.game_phase = "opening"
         self.move_count = 0
+        # ✅ ADD THESE TWO LINES:
+        self.piece_move_count = {}  # Track piece moves in opening
+        self.pieces_developed = set()  # Track which pieces are developed
 
     def reset_game_state(self):
         """Reset game state for new game"""
@@ -184,6 +195,27 @@ class ChessAI:
         self.game_phase = "opening"
         self.move_count = 0
         self.transposition_table.clear()
+        self.piece_move_count = {}
+        self.pieces_developed = set()
+
+    def _update_piece_development(self, move):
+        """Track which pieces have been developed from starting positions"""
+        from_r = move["from"]["row"]
+        from_c = move["from"]["col"]
+
+        # Track if piece moved from starting position
+        black_start_positions = {
+            (0, 1): "n",
+            (0, 6): "n",  # Knights
+            (0, 2): "b",
+            (0, 5): "b",  # Bishops
+            (0, 3): "q",  # Queen
+            (0, 0): "r",
+            (0, 7): "r",  # Rooks
+        }
+
+        if (from_r, from_c) in black_start_positions:
+            self.pieces_developed.add((from_r, from_c))
 
     def _get_piece_color(self, piece):
         """Get piece color"""
@@ -712,30 +744,32 @@ class ChessAI:
 
     def evaluate_board(self, board):
         """Enhanced board evaluation with learning integration"""
-        # Check if we have learned evaluation for this position
         pos_hash = self.hash_position(board)
         remembered = self.strategic_db.recall_position(pos_hash)
 
         if remembered and remembered["games_seen"] >= 3:
-            # Use learned evaluation with decay based on game phase
             learned_score = remembered["eval"]
             static_score = self._static_evaluation(board)
-            # Blend: 60% learned, 40% static
-            base_score = int(0.6 * learned_score + 0.4 * static_score)
+            base_score = int(0.8 * learned_score + 0.2 * static_score)
         else:
             base_score = self._static_evaluation(board)
 
-        # Add tactical bonuses
         tactical_score = self._evaluate_tactical_patterns(board)
-
-        # Add strategic bonuses with learned weights
         strategic_score = self._evaluate_strategy(board)
-
-        # Add mobility evaluation
         mobility_score = self._evaluate_mobility(board)
-
-        # Add king safety
         king_safety_score = self._evaluate_king_safety(board)
+
+        # ADD CHESS KNOWLEDGE BONUS
+        knowledge_bonus = 0
+        if self.game_phase == "opening" and self.move_count <= 15:
+            knowledge_bonus = self.chess_knowledge.evaluate_opening_principles(
+                board, "black", self.move_count
+            )
+
+        tactical_pattern_bonus, _ = self.chess_knowledge.detect_tactical_pattern(
+            board, "black"
+        )
+        knowledge_bonus += tactical_pattern_bonus
 
         total_score = (
             base_score
@@ -743,15 +777,14 @@ class ChessAI:
             + strategic_score
             + mobility_score
             + king_safety_score
+            + knowledge_bonus
         )
 
-        # Amplify evaluation when winning/losing significantly
-        if total_score > 500:  # Black is winning
-            total_score = int(total_score * 1.1)  # Push for win
-        elif total_score < -500:  # Black is losing
-            total_score = int(total_score * 1.1)  # Defend harder
+        if total_score > 500:
+            total_score = int(total_score * 1.1)
+        elif total_score < -500:
+            total_score = int(total_score * 1.1)
 
-        # Store this evaluation for learning (occasionally to avoid overhead)
         if self.nodes_searched % 100 == 0:
             self.strategic_db.remember_position(pos_hash, total_score, 1)
 
@@ -789,14 +822,15 @@ class ChessAI:
                         black_material += abs(val)
 
                 # Apply piece-square tables CORRECTLY
+                piece_type = piece.lower()
                 is_white = piece.isupper()
 
-                # For white pieces, flip the row (white at bottom = row 7)
-                # For black pieces, use row as-is (black at top = row 0)
-                # Tables are from black's perspective (row 0 = black's back rank)
-                # For white pieces, we need to flip the row
-                pos_row = 7 - row if is_white else row
+                if is_white:
+                    pos_row = 7 - row  # White pieces: flip row
+                else:
+                    pos_row = row  # Black pieces: use row as-is
 
+                # Calculate positional bonus
                 if piece_type == "p":
                     bonus = self.pawn_table[pos_row][col]
                 elif piece_type == "n":
@@ -813,14 +847,13 @@ class ChessAI:
                     else:
                         bonus = self.king_middle_table[pos_row][col]
                 else:
-                    bonus = 0
+                    bonus = 0  # Safety fallback
 
-                # Apply bonus correctly: tables are for BLACK, so negate for WHITE
+                # Tables are designed for BLACK (positive = good for black)
                 if is_white:
-                    score -= bonus  # White wants low bonus values (negative of black's advantage)
+                    score -= bonus  # White wants opposite
                 else:
-                    score += bonus  # Black gets bonus as-is
-
+                    score += bonus
         # Endgame mop-up evaluation - FIXED
         # Endgame mop-up evaluation - ENHANCED
         total_material = black_material + white_material
@@ -970,10 +1003,19 @@ class ChessAI:
 
                 # Count forks (attacking 2+ valuable pieces)
                 if len(attacked_pieces) >= 2:
-                    total_value = sum(val for _, val in attacked_pieces)
-                    if total_value > 1000:  # Two rooks or queen + rook
+                    # Sort by value
+                    attacked_pieces.sort(key=lambda x: x[1], reverse=True)
+                    top_two = attacked_pieces[:2]
+                    total_value = sum(val for _, val in top_two)
+
+                    # ENHANCED SCORING - NOW INSIDE THE BLOCK
+                    if total_value >= 1800:  # Queen + Queen or Queen + Rook
+                        fork_count += 5  # HUGE fork
+                    elif total_value >= 1400:  # Queen + Minor or Rook + Rook
+                        fork_count += 4
+                    elif total_value >= 900:  # Queen alone or Rook + Minor
                         fork_count += 3
-                    elif total_value > 600:  # Queen or rook involved
+                    elif total_value >= 600:  # Two minors or Rook
                         fork_count += 2
                     else:
                         fork_count += 1
@@ -1330,9 +1372,9 @@ class ChessAI:
 
         # Terminal conditions - prefer faster checkmates
         if self.is_checkmate(board, "white"):
-            return 50000 + depth * 100  # Prefer faster checkmates
+            return 50000 + depth * 150  # Prefer faster checkmates
         if self.is_checkmate(board, "black"):
-            return -50000 - depth * 100  # Avoid longer resistance
+            return -50000 - depth * 150  # Avoid longer resistance
         if self.is_stalemate(board, "white") or self.is_stalemate(board, "black"):
             return 0
         if self.is_insufficient_material(board):
@@ -1477,7 +1519,7 @@ class ChessAI:
 
         # CRITICAL: Limit quiescence depth STRICTLY + time check
         if (
-            depth > 1
+            depth > 2
             or self.time_up
             or (time.time() - self.search_start_time) > self.time_limit
         ):
@@ -1605,7 +1647,7 @@ class ChessAI:
         return [move for _, move in scored_captures]
 
     def order_moves(self, board, moves, color, depth):
-        """Enhanced move ordering for alpha-beta pruning"""
+        """Enhanced move ordering with anti-repetition"""
         if not moves:
             return moves
 
@@ -1621,6 +1663,45 @@ class ChessAI:
             score = 0
             from_r, from_c = move["from"]["row"], move["from"]["col"]
             to_r, to_c = move["to"]["row"], move["to"]["col"]
+
+            # Check for repetition
+            temp_test = self.make_move_simple(board, from_r, from_c, to_r, to_c)
+            test_hash = self.hash_position(temp_test)
+            if len(self.recent_moves) >= 2 and self.recent_moves.count(test_hash) >= 1:
+                score -= 5000
+
+            # OPENING DEVELOPMENT PENALTIES
+            if self.move_count <= 15 and color == "black":
+                piece = board[from_r][from_c]
+
+                # Penalty for moving same piece twice
+                if (from_r, from_c) in self.pieces_developed:
+                    undeveloped_pieces = sum(
+                        1
+                        for pos in [(0, 1), (0, 6), (0, 2), (0, 5)]
+                        if pos not in self.pieces_developed
+                    )
+                    if undeveloped_pieces > 0:
+                        score -= 300
+
+                # Penalty for queen too early
+                if piece.lower() == "q" and self.move_count <= 8:
+                    score -= 250
+
+                # Bonus for developing minor pieces
+                if (
+                    piece.lower() in ["n", "b"]
+                    and (from_r, from_c) not in self.pieces_developed
+                ):
+                    score += 200
+
+                # Penalty for moving rooks early
+                if piece.lower() == "r" and self.move_count <= 10:
+                    score -= 150
+
+                # Penalty for pawn moves after move 4
+                if piece.lower() == "p" and self.move_count > 4:
+                    score -= 80
 
             # Prioritize transposition table move
             if best_move_from_cache and move == best_move_from_cache:
@@ -1638,12 +1719,11 @@ class ChessAI:
                 score += 500
 
             # Checks
-            # Checks (EXPENSIVE - only check for high-value moves)
-            if score > 500:  # Only check if move already looks promising
+            if score > 500:
                 temp_board = self.make_move_simple(board, from_r, from_c, to_r, to_c)
                 opponent_color = "white" if color == "black" else "black"
                 if self.is_in_check(temp_board, opponent_color):
-                    score += 800  # Checks are VERY valuable
+                    score += 800
 
             # Center control
             if to_r in [3, 4] and to_c in [3, 4]:
@@ -1663,7 +1743,7 @@ class ChessAI:
 
             scored_moves.append((score, idx, move))
 
-        # Sort by score (descending), then by index for stability
+        # Sort by score
         scored_moves.sort(key=lambda x: (x[0], -x[1]), reverse=True)
         return [move for _, _, move in scored_moves]
 
@@ -1862,11 +1942,12 @@ class ChessAI:
 
         legal_moves = self.get_all_legal_moves(board, "black")
         if not legal_moves:
+
             return None
 
         # Check opening book first (only in opening phase)
         book_move = None
-        if use_opening_book and self.move_count <= 20:  # Extended from 12
+        if use_opening_book and self.move_count <= 15:  # Extended from 12
             pos_hash = self.hash_position(board)
             book_move_str = self.strategic_db.get_opening_book_move(pos_hash)
 
@@ -1916,23 +1997,29 @@ class ChessAI:
 
         if randomness > 0 and random.random() < randomness:
             # ANTI-REPETITION: Avoid repeating positions
+            #  NEW: Check if best move leads to known losing pattern
             if best_move:
-                temp_test_board = self.make_move_simple(
+                # Get the sequence this move would create
+                temp_board = self.make_move_simple(
                     board,
                     best_move["from"]["row"],
                     best_move["from"]["col"],
                     best_move["to"]["row"],
                     best_move["to"]["col"],
                 )
-                test_hash = self.hash_position(temp_test_board)
 
-                if (
-                    len(self.recent_moves) >= 2
-                    and self.recent_moves.count(test_hash) >= 1
-                ):
+                # Check last 4 moves to see if it matches a losing pattern
+                recent_moves_with_new = self.recent_moves[-3:] + [
+                    self.hash_position(temp_board)
+                ]
+                move_sequence = [self._move_to_string(best_move)]
+
+                if self.strategic_db.is_losing_pattern(move_sequence):
+                    print("⚠️ AVOIDING KNOWN LOSING PATTERN!")
+                    # Pick second-best move instead
                     candidate_moves = self.order_moves(
                         board, legal_moves, "black", max_depth
-                    )[:5]
+                    )[1:6]
                     for alt_move in candidate_moves:
                         alt_board = self.make_move_simple(
                             board,
@@ -1941,9 +2028,12 @@ class ChessAI:
                             alt_move["to"]["row"],
                             alt_move["to"]["col"],
                         )
-                        alt_hash = self.hash_position(alt_board)
-                        if self.recent_moves.count(alt_hash) == 0:
+                        alt_sequence = self.recent_moves[-3:] + [
+                            self.hash_position(alt_board)
+                        ]
+                        if not self.strategic_db.is_losing_pattern(alt_sequence):
                             best_move = alt_move
+                            print("✅ Switched to safer alternative!")
                             break
 
         # Add some randomness for lower difficulties
@@ -1978,6 +2068,43 @@ class ChessAI:
                 )[0]
             else:
                 best_move = scored_moves[0][0] if scored_moves else best_move
+                # ENHANCED ANTI-REPETITION (works for ALL difficulties)
+        if best_move:
+            temp_test_board = self.make_move_simple(
+                board,
+                best_move["from"]["row"],
+                best_move["from"]["col"],
+                best_move["to"]["row"],
+                best_move["to"]["col"],
+            )
+            test_hash = self.hash_position(temp_test_board)
+
+            # Only avoid repetition if we're NOT winning
+            if len(self.recent_moves) >= 2 and self.recent_moves.count(test_hash) >= 1:
+                # Check if we're winning
+                if best_score > 300:  # ✅ If winning, repetition is OK
+                    pass  # Don't avoid repetition when winning
+                else:
+                    print("🔄 Avoiding position repetition...")
+                    candidate_moves = self.order_moves(
+                        board, legal_moves, "black", max_depth
+                    )[:8]
+
+                    for alt_move in candidate_moves:
+                        alt_board = self.make_move_simple(
+                            board,
+                            alt_move["from"]["row"],
+                            alt_move["from"]["col"],
+                            alt_move["to"]["row"],
+                            alt_move["to"]["col"],
+                        )
+                        alt_hash = self.hash_position(alt_board)
+
+                        # Only pick move if it's a NEW position
+                        if self.recent_moves.count(alt_hash) == 0:
+                            best_move = alt_move
+                            print("✅ Found non-repetitive move!")
+                            break
 
         # Calculate evaluation
         final_eval = self.evaluate_board(
@@ -1994,6 +2121,10 @@ class ChessAI:
             f"Analyzed {self.nodes_searched} positions "
             f"(depth {max_depth}, {self.cache_hits} cache hits)"
         )
+
+        # Track piece development for opening
+        if best_move and self.move_count <= 15:
+            self._update_piece_development(best_move)
 
         return {
             "move": best_move,
@@ -2100,6 +2231,39 @@ class ChessAI:
 
         # Learn from tactical patterns
         if outcome == "win":
+            # ✅ NEW: Record ALL positions from winning game as good
+            temp_board = [
+                ["r", "n", "b", "q", "k", "b", "n", "r"],
+                ["p", "p", "p", "p", "p", "p", "p", "p"],
+                ["", "", "", "", "", "", "", ""],
+                ["", "", "", "", "", "", "", ""],
+                ["", "", "", "", "", "", "", ""],
+                ["", "", "", "", "", "", "", ""],
+                ["P", "P", "P", "P", "P", "P", "P", "P"],
+                ["R", "N", "B", "Q", "K", "B", "N", "R"],
+            ]
+
+            # Replay and remember winning positions with high scores
+            for idx, move_data in enumerate(move_history):
+                if not move_data or "from" not in move_data:
+                    continue
+                if idx % 2 == 1:  # AI moves only
+                    pos_hash = self.hash_position(temp_board)
+                    # Store with increasingly good evaluation as game progresses toward win
+                    progress_bonus = int(200 * (idx / len(move_history)))
+                    self.strategic_db.remember_position(
+                        pos_hash, 500 + progress_bonus, 4
+                    )
+
+                if "from" in move_data and "to" in move_data:
+                    temp_board = self.make_move_simple(
+                        temp_board,
+                        move_data["from"]["row"],
+                        move_data["from"]["col"],
+                        move_data["to"]["row"],
+                        move_data["to"]["col"],
+                    )
+
             # Record winning sequence (last 6 moves)
             winning_sequence = [
                 self._move_to_string(m) for m in move_history[-6:] if m and "from" in m
@@ -2134,6 +2298,28 @@ class ChessAI:
         # Restore castling state
         self.castling_rights = saved_castling
         self.en_passant_target = saved_en_passant
+        # Restore castling state
+        self.castling_rights = saved_castling
+        self.en_passant_target = saved_en_passant
+
+        # Print learning progress
+        print("\n" + "=" * 50)
+        print("🧠 LEARNING FROM GAME")
+        print("=" * 50)
+        print(f"Outcome: {outcome.upper()}")
+        print(f"Opening moves learned: {len(opening_moves)}")
+        print(
+            f"Total patterns in database: {self.strategic_db.data['stats']['patterns_learned']}"
+        )
+        print(f"Opening book size: {len(self.strategic_db.data['opening_book'])}")
+        print(f"Winning sequences: {len(self.strategic_db.data['winning_sequences'])}")
+        print(
+            f"Losing sequences to avoid: {len(self.strategic_db.data['losing_sequences'])}"
+        )
+        print("\n📊 Strategic Weights:")
+        for concept, weight in self.strategic_db.data["strategic_concepts"].items():
+            print(f"  {concept}: {weight:.2f}")
+        print("=" * 50 + "\n")
 
         # Return learning stats
         return self.strategic_db.get_learning_stats()
